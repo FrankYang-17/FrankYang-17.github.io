@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # 👨‍🎓 About Me
 I am a second-year Ph.D. student at Peking University, advised by Prof. Xuejun Yang and Prof. Wenjing Yang. I earned my B.S. degree from China University of Geosciences in 2023. Prior to this, I served in the People's Liberation Army of China from 2017 to 2019.
 
