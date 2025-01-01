@@ -12,7 +12,7 @@ title                    : "Yang Shi"
 title_separator          : "-"
 name                     : &name "Yang Shi"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://dogneversleep.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yang Shi"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student in Peking University"
+  bio              : "PhD student at Peking University"
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : # URL
