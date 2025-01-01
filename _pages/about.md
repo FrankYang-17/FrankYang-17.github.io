@@ -12,7 +12,7 @@ I am a second-year Ph.D. student at Peking University, advised by Prof. Xuejun Y
 
 My main research interest focus on foundation models for multimodal learning. I am also interested in the application of multimodal learning in embodied AI. Currently I am working on multimodal pre-training models and their applications in various tasks.
 
-*If you are interested in partnering on research projects, offering internship opportunities or exchange programs, I would be thrilled to connect with you.* :)
+*If you are interested in partnering on research projects, offering internship opportunities or exchange programs, I would be thrilled to connect with you.* 😄
 
 # 📨 News
 
