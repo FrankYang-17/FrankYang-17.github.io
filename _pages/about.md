@@ -16,14 +16,17 @@ My main research interest focus on foundation models for multimodal learning. I 
 
 # 📨 News
 
+
 # 📝 Publications
 
+
 # 👨‍💻 Work Experience
+
 
 # 📚 Education
 - **Ph.D.** School of Computer Science, Peking University, 2023 - Present
 - **B.S.** School of Computer Science, China University of Geosciences, 2019 - 2023
 
 # 🌟 Honors & Awards
-- Ruiming Alumni Scholarship, **1%** , 2021
-- China National Scholarship, **1%** , 2020
+- Ruiming Alumni Scholarship, **1‰** , 2021
+- China National Scholarship, **0.2%** , 2020
