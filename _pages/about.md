@@ -21,7 +21,7 @@ My main research interest focus on **foundation models for multimodal learning**
 
 
 # 👨‍💻 Work Experience
-- **Research Intern** at *THUNLP*, 2023.12 - Present
+- Research Intern at **THUNLP**, *Tsinghua University*, 2023.12 - Present
 
 
 # 📚 Education
