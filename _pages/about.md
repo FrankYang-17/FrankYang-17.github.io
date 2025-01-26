@@ -26,8 +26,8 @@ Currently I am working on **efficient pretraining and fine-tuning of multimodal 
 
 
 # 📚 Education
-- **Ph.D.** School of Computer Science, *Peking University*, 2023 - Present
-- **B.S.** School of Computer Science, *China University of Geosciences*, 2019 - 2023
+- **Ph.D.** School of Computer Science, ***Peking University***, 2023 - Present
+- **B.S.** School of Computer Science, ***China University of Geosciences***, 2019 - 2023
 
 
 # 🌟 Honors & Awards
