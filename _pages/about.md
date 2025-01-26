@@ -16,10 +16,10 @@ Currently I am working on **efficient pretraining and fine-tuning of multimodal 
 
 *If you are interested in partnering on research projects, offering internship opportunities or exchange programs, I would be thrilled to connect with you.* 😄
 
-# 📨 News
-
 
 # 📝 Publications
+- [EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](https://arxiv.org/html/2501.11858v1)
+  Zhili Cheng‡, Yuge Tu∗, Ran Li∗, Shiqi Dai∗, Jinyi Hu∗‡, Shengding Hu, Jiahao Li, **Yang Shi**, Tianyu Yu, Weize Chen, Lei Shi, Maosong Sun†
 
 
 # 👨‍💻 Work Experience
@@ -29,6 +29,7 @@ Currently I am working on **efficient pretraining and fine-tuning of multimodal 
 # 📚 Education
 - **Ph.D.** School of Computer Science, *Peking University*, 2023 - Present
 - **B.S.** School of Computer Science, *China University of Geosciences*, 2019 - 2023
+
 
 # 🌟 Honors & Awards
 - Ruiming Alumni Scholarship, **1‰** , 2021
