@@ -22,12 +22,13 @@ Currently I am working on **efficient pretraining and fine-tuning of multimodal 
 
 
 # 👨‍💻 Work Experience
-- Research Intern at **THUNLP**, *Tsinghua University*, 2023.12 - Present
+- Research Intern at *KwaiYii*, **Kuaishou**, 2025.02 - Present
+- Research Intern at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
 
 
 # 📚 Education
-- **Ph.D.** School of Computer Science, ***Peking University***, 2023 - Present
-- **B.S.** School of Computer Science, ***China University of Geosciences***, 2019 - 2023
+- **Ph.D.** School of Computer Science, **Peking University**, 2023 - Present
+- **B.S.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
 
 # 🌟 Honors & Awards
