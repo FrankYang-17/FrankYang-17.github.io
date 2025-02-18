@@ -19,7 +19,7 @@ Currently I am working on **efficient pretraining and fine-tuning of multimodal 
 
 # 📝 Publications
 - [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391)<br><span style="font-size: 80%;">*Yi-Fan Zhang‡, Tao Yu, Haochen Tian, Chaoyou Fu†, Peiyan Li, Jianshu Zeng, Wulin Xie, **Yang Shi**, Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu, Bin Wen†, Fan Yang, Zhang Zhang†, Tingting Gao, Di Zhang, Liang Wang, Rong Jin, Tieniu Tan*</span>
-- [EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](https://arxiv.org/html/2501.11858v1)<br><span style="font-size: 80%;">Zhili *Cheng‡, Yuge Tu∗, Ran Li∗, Shiqi Dai∗, Jinyi Hu∗‡, Shengding Hu, Jiahao Li, **Yang Shi**, Tianyu Yu, Weize Chen, Lei Shi, Maosong Sun†*</span>
+- [EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](https://arxiv.org/html/2501.11858v1)<br><span style="font-size: 80%;">*Zhili Cheng‡, Yuge Tu∗, Ran Li∗, Shiqi Dai∗, Jinyi Hu∗‡, Shengding Hu, Jiahao Li, **Yang Shi**, Tianyu Yu, Weize Chen, Lei Shi, Maosong Sun†*</span>
 
 
 # 👨‍💻 Work Experience
