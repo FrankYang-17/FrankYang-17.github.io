@@ -10,7 +10,7 @@ redirect_from:
 # 👨‍🎓 About Me
 I am a second-year Ph.D. student at Peking University, advised by Prof. Xuejun Yang and Prof. Wenjing Yang. I earned my B.S. degree at China University of Geosciences in 2023. Prior to this, I served in the People's Liberation Army of China from 2017 to 2019.
 
-My primary research interest focus on **Foundation Models for Multimodal Learning**. I am also interested in the application of multimodal learning in AI Agent.
+My primary research interest focus on **Foundation Models for Multimodal Learning**. I am also interested in **Causal Inference** and **Reinforcement Learning**.
 
 Currently I am working on **Efficient Pretraining and Fine-tuning of Multimodal Large Language Models** and **Unified Models (Any-to-Any)**.
 
