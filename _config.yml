@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "WechatIMG543.jpg"
+  avatar           : "head_image.jpeg"
   name             : "Yang Shi"
   pronouns         : # example: "she/her"  
   bio              : "Life's a struggle."
