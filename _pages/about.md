@@ -19,6 +19,7 @@ Currently I am working on **Efficient Pretraining and Fine-tuning of Multimodal 
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contribution*</span>
+- [Mavors: Multi-granularity Video Representation for Multimodal Large Language Model]()<br><span style="font-size: 80%;">***Yang Shi**\*, Jiaheng Liu\*, Yushuo Guan\*, Zhenhua Wu, Yuanxing Zhang†, Zihao Wang, Weihong Lin, Jingyun Hua, Zekun Wang, Xinlong Chen, Bohan Zeng, Wentao Zhang, Fuzheng Zhang, Wenjing Yang, Di Zhang*</span>
 - [MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](https://arxiv.org/abs/2504.03641)<br><span style="font-size: 80%;">*Wulin Xie\*, Yi-Fan Zhang\*‡, Chaoyou Fu, **Yang Shi**, Bingyan Nie, Hongkai Chen, Zhang Zhang, Liang Wang, Tieniu Tan*</span>
 - [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391)<br><span style="font-size: 80%;">*Yi-Fan Zhang‡, Tao Yu, Haochen Tian, Chaoyou Fu†, Peiyan Li, Jianshu Zeng, Wulin Xie, **Yang Shi**, Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu, Bin Wen†, Fan Yang, Zhang Zhang†, Tingting Gao, Di Zhang, Liang Wang, Rong Jin, Tieniu Tan*</span>
 - [EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](https://arxiv.org/abs/2501.11858v1)<br><span style="font-size: 80%;">*Zhili Cheng‡, Yuge Tu\#, Ran Li\#, Shiqi Dai\#, Jinyi Hu\#‡, Shengding Hu, Jiahao Li, **Yang Shi**, Tianyu Yu, Weize Chen, Lei Shi, Maosong Sun†*</span>
