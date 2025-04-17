@@ -26,8 +26,7 @@ Currently I am working on **Efficient Pretraining and Fine-tuning of Multimodal 
 
 
 # 👨‍💻 Work Experience
-- Research Intern at *KLING*, **Kuaishou Technology**, 2025.04 - Present
-- Research Intern at *KwaiYii*, **Kuaishou Technology**, 2025.02 - 2025.04
+- Research Intern at *KwaiYii*, **Kuaishou Technology**, 2025.02 - Present
 - Research Intern at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
 
 
