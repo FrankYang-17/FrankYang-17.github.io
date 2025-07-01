@@ -12,7 +12,7 @@ title                    : "Yang Shi"
 title_separator          : "-"
 name                     : &name "Yang Shi"
 description              : &description "personal description"
-url                      : https://dogneversleep.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://FrankYang-17.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "DogNeverSleep"
+  github           : "FrankYang-17"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
