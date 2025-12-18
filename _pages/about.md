@@ -19,6 +19,8 @@ Currently I am working on **Efficient Pre-training and Fine-tuning of Multimodal
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
+- [Hybrid Attribution Priors for Explainable and Robust Model Training](https://arxiv.org/abs/2512.14719)<br><span style="font-size: 80%;">*Zhuoran Zhang, Feng Zhang, Shangyuan Li, **Yang Shi**, Yuanxing Zhang, Wei Chen, Tengjiao Wang, Kam-Fai Wong*</span>
+- [Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling](https://arxiv.org/abs/2512.12675)<br><span style="font-size: 80%;">*Yuran Wang\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, **Yang Shi**, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang†*</span>
 - [Monet: Reasoning in Latent Visual Space Beyond Images and Language](https://arxiv.org/abs/2511.21395)<br><span style="font-size: 80%;">*Qixun Wang, **Yang Shi**, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying†, Yisen Wang†*</span>
 - [A Survey of Unified Multimodal Understanding and Generation: Advances and Challenges](https://www.techrxiv.org/users/993777/articles/1355509-a-survey-of-unified-multimodal-understanding-and-generation-advances-and-challenges)<br><span style="font-size: 80%;">*Yan Yang\*, Haochen Tian\*, **Yang Shi\***, Wulin Xie\*, Yi-Fan Zhang†, Yuhao Dong, Yibo Hu, Liang Wang, Ran He, Caifeng Shan, Chaoyou Fu†, Tieniu Tan*</span>
 - [Detecting Unobserved Confounders: A Kernelized Regression Approach]() [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
