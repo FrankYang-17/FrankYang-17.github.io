@@ -19,6 +19,7 @@ Currently I am working on **Efficient Pre-training and Fine-tuning of Multimodal
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
+- [GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models](https://arxiv.org/abs/2512.15560)<br><span style="font-size: 80%;">*Bozhou Li, Sihan Yang, Yushuo Guan, Ruichuan An, Xinlong Chen, **Yang Shi**, Pengfei Wan, Wentao Zhang, Yuanxing zhang*</span>
 - [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374)<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
 - [Hybrid Attribution Priors for Explainable and Robust Model Training](https://arxiv.org/abs/2512.14719)<br><span style="font-size: 80%;">*Zhuoran Zhang, Feng Zhang, Shangyuan Li, **Yang Shi**, Yuanxing Zhang, Wei Chen, Tengjiao Wang, Kam-Fai Wong*</span>
 - [Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling](https://arxiv.org/abs/2512.12675)<br><span style="font-size: 80%;">*Yuran Wang\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, **Yang Shi**, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang†*</span>
