@@ -12,7 +12,7 @@ I am a third-year Ph.D. student at Peking University, advised by Prof. Xuejun Ya
 
 My primary research interest focus on **Foundation Models for Multimodal Learning**. I am also interested in **Causal Inference** and **Reinforcement Learning**. My overarching research goal is to build reliable and generalizable multimodal intelligence, with a focus on developing principled methods that integrate vision, language, and structured reasoning under real-world conditions.
 
-Currently I am working on **Efficient Pre-training and Fine-tuning of Multimodal Large Language Models**.
+Currently I am working on **Efficient Pre-training of Multimodal Large Language Models**.
 
 *I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
 
