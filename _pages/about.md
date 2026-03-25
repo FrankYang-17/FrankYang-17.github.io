@@ -54,7 +54,11 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 # 👨‍💻 Work Experience
 - Research Intern at *Kling AI*, **Kuaishou Technology**, 2025.02 - Present
+  - In collaboration with Yuanxing Zhang
 - Visiting Student at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
+  - In collaboration with Prof. Zhiyuan Liu
+- Visiting Student at *State Key Laboratory of High Performance Computing*, **National University of Defense Technology**, 2023.09 - Present
+  - In collaboration with Prof. Haotian Wang
 
 
 # 📚 Education
