@@ -54,7 +54,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 # 👨‍💻 Work Experience
 - Research Intern at *Kling AI*, **Kuaishou Technology**, 2025.02 - Present
-- Research Intern at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
+- Visiting Student at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
 
 
 # 📚 Education
