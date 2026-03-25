@@ -64,7 +64,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 # 📚 Education
 - **Ph.D.** School of Computer Science, **Peking University**, 2023 - Present
-- **B.S.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
+- **B.E.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
 
 # 🌟 Honors & Awards
