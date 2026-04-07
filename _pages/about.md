@@ -20,6 +20,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
+- [Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding](https://github.com/MME-Benchmarks/Video-MME-v2/blob/main/Video_MME_v2-TechReport.pdf)<br><span style="font-size: 80%;">*Video-MME Team (Acknowledged Contributor: **Yang Shi**)*</span>
 - [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](https://arxiv.org/abs/2604.04707)<br><span style="font-size: 80%;">*DataFlow Team (Contributor: **Yang Shi**)*</span>
 - [Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?](https://arxiv.org/abs/2604.03016)<br><span style="font-size: 80%;">*Qianshan Wei, Yishan Yang, Siyi Wang, Jinglin Chen, Binyu Wang, Jiaming Wang, Shuang Chen, Zechen Li, **Yang Shi**, Yuqi Tang, Weining Wang, Yi Yu, Chaoyou Fu, Qi Li, Yi-Fan Zhang*</span>
 - [VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining](https://arxiv.org/abs/2603.15030)<br><span style="font-size: 80%;">*Xuanyu Zhu, Yuhao Dong, Rundong Wang, **Yang Shi**, Zhipeng Wu, Yinlun Peng, Yi-Fan Zhang, Yihang Lou, Yuanxing Zhang, Ziwei Liu, Yan Bai, Yuan Zhou*</span>
