@@ -18,11 +18,11 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 *I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
 
 # ✨ News
-- [2026.04] 🎉 One papers are accepted by **ACL 2026**.
+- [2026.04] 🎉 One paper is accepted by **ACL 2026**.
 - [2026.02] 🎉 Three papers are accepted by **CVPR 2026**, including one **Highlight**.
 - [2026.01] 🎉 Six papers are accepted by **ICLR 2026**.
-- [2025.11] 🎉 One papers are accepted by **AAAI 2026**.
-- [2025.09] 🎉 One papers are accepted by **NeurIPS 2025**.
+- [2025.11] 🎉 One paper is accepted by **AAAI 2026**.
+- [2025.09] 🎉 One paper is accepted by **NeurIPS 2025**.
 - [2025.07] 🎉 Two papers are accepted by **ACM MM 2025**.
 
 # 📝 Publications
