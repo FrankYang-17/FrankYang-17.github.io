@@ -17,6 +17,13 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 *I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
 
+# ✨ News
+- [2026.04] 🎉 One papers are accepted by **ACL 2026**.
+- [2026.02] 🎉 Three papers are accepted by **CVPR 2026**, including one **Highlight**.
+- [2026.01] 🎉 Six papers are accepted by **ICLR 2026**.
+- [2025.11] 🎉 One papers are accepted by **AAAI 2026**.
+- [2025.09] 🎉 One papers are accepted by **NeurIPS 2025**.
+- [2025.07] 🎉 Two papers are accepted by **ACM MM 2025**.
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
@@ -33,7 +40,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [GRAN-TED: Generating Robust, Aligned, and Nuanced Text Embedding for Diffusion Models](https://arxiv.org/abs/2512.15560)<br><span style="font-size: 80%;">*Bozhou Li, Sihan Yang, Yushuo Guan, Ruichuan An, Xinlong Chen, **Yang Shi**, Pengfei Wan, Wentao Zhang, Yuanxing zhang*</span>
 - [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
 - [Hybrid Attribution Priors for Explainable and Robust Model Training](https://arxiv.org/abs/2512.14719)<br><span style="font-size: 80%;">*Zhuoran Zhang, Feng Zhang, Shangyuan Li, **Yang Shi**, Yuanxing Zhang, Wei Chen, Tengjiao Wang, Kam-Fai Wong*</span>
-- [Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling](https://arxiv.org/abs/2512.12675) [**CVPR 2026**]<br><span style="font-size: 80%;">*Yuran Wang\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, **Yang Shi**, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang†*</span>
+- [Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling](https://arxiv.org/abs/2512.12675) [**CVPR 2026 Highlight**]<br><span style="font-size: 80%;">*Yuran Wang\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, **Yang Shi**, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang†*</span>
 - [Monet: Reasoning in Latent Visual Space Beyond Images and Language](https://arxiv.org/abs/2511.21395) [**CVPR 2026**]<br><span style="font-size: 80%;">*Qixun Wang, **Yang Shi**, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying†, Yisen Wang†*</span>
 - [A Survey of Unified Multimodal Understanding and Generation: Advances and Challenges](https://www.techrxiv.org/users/993777/articles/1355509-a-survey-of-unified-multimodal-understanding-and-generation-advances-and-challenges)<br><span style="font-size: 80%;">*Yan Yang\*, Haochen Tian\*, **Yang Shi\***, Wulin Xie\*, Yi-Fan Zhang†, Yuhao Dong, Yibo Hu, Liang Wang, Ran He, Caifeng Shan, Chaoyou Fu†, Tieniu Tan*</span>
 - [Detecting Unobserved Confounders: A Kernelized Regression Approach](https://arxiv.org/abs/2601.00200) [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
