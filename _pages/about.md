@@ -24,6 +24,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [2025.11] 🎉 One paper is accepted by **AAAI 2026**.
 - [2025.09] 🎉 One paper is accepted by **NeurIPS 2025**.
 - [2025.07] 🎉 Two papers are accepted by **ACM MM 2025**.
+- [2025.05] 🎉 One paper is accepted by **ICML 2025**.
 
 # 📝 Publications
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
