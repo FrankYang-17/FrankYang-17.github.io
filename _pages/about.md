@@ -15,6 +15,8 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+# 👨‍🎓 About Me
+
 <span class='anchor' id='about-me'></span>
 
 I am a third-year Ph.D. student at Peking University, advised by Prof. Xuejun Yang and Prof. Wenjing Yang. I earned my B.E. degree at China University of Geosciences in 2023. Prior to that, I served for two years in the People’s Liberation Army.
