@@ -23,8 +23,6 @@ My primary research interest focus on **Foundation Models for Multimodal Learnin
 
 Currently I am working on **Efficient Pre-training of Multimodal Large Language Models**.
 
-You can also find me on <a href='https://scholar.google.com/citations?hl=zh-CN&user=d_-6W4YAAAAJ'>Google Scholar</a> <a href='https://scholar.google.com/citations?hl=zh-CN&user=d_-6W4YAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-
 *I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
 
 

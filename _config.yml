@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yang Shi"
-description              : "Foundation Models for Multimodal Learning, Causal Inference, and Reinforcement Learning."
+description              : ""
 url                      : "https://FrankYang-17.github.io"
 baseurl                  : ""
 repository               : "FrankYang-17/FrankYang-17.github.io"
@@ -26,7 +26,7 @@ author:
   name             : "Yang Shi"
   avatar           : "images/head_image.jpeg"
   bio              : "Life's a struggle."
-  location         : "Beijing, China"
+  location         : # "Beijing, China"
   employer         : "Peking University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=d_-6W4YAAAAJ"
