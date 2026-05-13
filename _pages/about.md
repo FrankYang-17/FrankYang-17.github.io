@@ -28,7 +28,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 *I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
 
 
-# 🔥 News
+# ✨ News
 - *2026.05*: &nbsp;🎉 Six paper are accepted by **ICML 2026**.
 - *2026.04*: &nbsp;🎉 One paper is accepted by **ACL 2026**.
 - *2026.02*: &nbsp;🎉 Three papers are accepted by **CVPR 2026**, including one **Highlight**.
