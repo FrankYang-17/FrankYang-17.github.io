@@ -42,6 +42,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
 
+- [Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling](https://arxiv.org/abs/2605.13062)<br><span style="font-size: 80%;">*Xuehai Bai\*, **Yang Shi\***, YiFan Zhang\*‡, Xuanyu Zhu, Yuran Wang, Yifan Dai, Xinyu Liu, Yiyan Ji, Xiaoling Gu†, Yuanxing Zhang†*</span>
 - [Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization](https://arxiv.org/abs/2605.10780)<br><span style="font-size: 80%;">*Xuanyu Zhu\*, Yan Bai\*, **Yang Shi‡**, Yihang Lou, Yuanxing Zhang, Jing Jin, Yuan Zhou†*</span>
 - [Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding](https://arxiv.org/abs/2604.05015)<br><span style="font-size: 80%;">*Video-MME Team (Acknowledgement: **Yang Shi**)*</span>
 - [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](https://arxiv.org/abs/2604.04707)<br><span style="font-size: 80%;">*DataFlow Team (Contributor: **Yang Shi**)*</span>
@@ -86,7 +87,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - Visiting Student at *State Key Laboratory of High Performance Computing*, **National University of Defense Technology**, 2023.09 - Present
   - In collaboration with Prof. Haotian Wang
 
-# 📖 Educations
+# 📖 Education
 - **Ph.D.** School of Computer Science, **Peking University**, 2023 - Present
 - **B.E.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
