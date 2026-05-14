@@ -84,6 +84,8 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
   - In collaboration with Dr. Yuanxing Zhang
 - Visiting Student at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
   - In collaboration with Prof. Zhiyuan Liu
+- Visiting Student at *Intelligent Game and Decision Lab*, **Academy of Military Sciences**, 2023.09 - Present
+  - In collaboration with Prof. Shixuan Liu
 - Visiting Student at *State Key Laboratory of High Performance Computing*, **National University of Defense Technology**, 2023.09 - Present
   - In collaboration with Prof. Haotian Wang
 
