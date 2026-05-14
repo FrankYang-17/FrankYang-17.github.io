@@ -41,7 +41,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 # 📝 Publications 
 
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
-- [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos]()<br><span style="font-size: 80%;">*Yuqi Tang\*, **Yang Shi\*‡**, Zhuoran Zhang\*, Qixun Wang\*, *</span>
+- [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos]()<br><span style="font-size: 80%;">*Yuqi Tang\*, **Yang Shi\*‡**, Zhuoran Zhang\*, Qixun Wang\*, Xuehai Bai*</span>
 - [Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling](https://arxiv.org/abs/2605.13062)<br><span style="font-size: 80%;">*Xuehai Bai\*, **Yang Shi\***, YiFan Zhang\*‡, Xuanyu Zhu, Yuran Wang, Yifan Dai, Xinyu Liu, Yiyan Ji, Xiaoling Gu†, Yuanxing Zhang†*</span>
 - [Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization](https://arxiv.org/abs/2605.10780)<br><span style="font-size: 80%;">*Xuanyu Zhu\*, Yan Bai\*, **Yang Shi‡**, Yihang Lou, Yuanxing Zhang, Jing Jin, Yuan Zhou†*</span>
 - [Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding](https://arxiv.org/abs/2604.05015)<br><span style="font-size: 80%;">*Video-MME Team (Acknowledgement: **Yang Shi**)*</span>
