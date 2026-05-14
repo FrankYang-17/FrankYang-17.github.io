@@ -87,7 +87,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - Visiting Student at *Intelligent Game and Decision Lab*, **Academy of Military Sciences**, 2023.09 - Present
   - In collaboration with Prof. Shixuan Liu
 - Visiting Student at *State Key Laboratory of High Performance Computing*, **National University of Defense Technology**, 2023.09 - Present
-  - In collaboration with Prof. Haotian Wang
+  - In collaboration with Prof. Haotian Wang and Prof. Haoang Chi
 
 # 📖 Education
 - **Ph.D.** School of Computer Science, **Peking University**, 2023 - Present
