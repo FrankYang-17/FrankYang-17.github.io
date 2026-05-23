@@ -25,7 +25,7 @@ My primary research interest focus on **Foundation Models for Multimodal Learnin
 
 Currently I am working on **Efficient Pre-training of Multimodal Large Language Models**.
 
-*I am actively seeking research discussions and collaboration opportunities, so feel free to contact me!* 😄
+*I am actively seeking research discussions and collaboration opportunities, so feel free to contact me (frankyang1517@gmail.com)!* 😄
 
 
 # ✨ News
