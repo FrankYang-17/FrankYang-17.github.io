@@ -100,3 +100,5 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 # 🎖 Honors and Awards
 - Ruiming Alumni Scholarship, **1‰** , 2021
 - China National Scholarship, **0.2%** , 2020
+- Outstanding Soldier Award, 2019
+- Outstanding Soldier Award, 2018
