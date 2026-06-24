@@ -87,13 +87,13 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 # 👨‍💻 Work Experience
 - Research Intern at *Kling AI*, **Kuaishou Technology**, 2025.02 - Present
-  - In collaboration with Dr. Yuanxing Zhang
+  - In collaboration with Dr. [Yuanxing Zhang](https://longo11070001.github.io/)
 - Visiting Student at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
-  - In collaboration with Prof. Zhiyuan Liu
+  - In collaboration with Prof. [Zhiyuan Liu](https://scholar.google.com/citations?user=dT0v5u0AAAAJ&hl=en)
 - Visiting Student at *Intelligent Game and Decision Lab*, **Academy of Military Sciences**, 2023.09 - Present
-  - In collaboration with Prof. Shixuan Liu
+  - In collaboration with Prof. [Shixuan Liu](https://shixuanliu-andy.github.io/)
 - Visiting Student at *State Key Laboratory of High Performance Computing*, **National University of Defense Technology**, 2023.09 - Present
-  - In collaboration with Prof. Haotian Wang and Prof. Haoang Chi
+  - In collaboration with Prof. [Haotian Wang](https://accwht.github.io/) and Prof. [Haoang Chi](https://www.semanticscholar.org/author/Haoang-Chi/2047998054)
 
 # 📖 Education
 - **Ph.D.** School of Computer Science, **Peking University**, 2023 - Present
