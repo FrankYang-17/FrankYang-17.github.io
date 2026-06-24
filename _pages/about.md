@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year Ph.D. student at Peking University, advised by Prof. Xuejun Yang and Prof. Wenjing Yang. I earned my B.E. degree at China University of Geosciences in 2023. Prior to that, I served for two years in the People’s Liberation Army.
+I am a third-year Ph.D. student at Peking University, advised by Prof. [Xuejun Yang](https://www.semanticscholar.org/author/Xuejun-Yang/1780156) and Prof. [Wenjing Yang](https://www.semanticscholar.org/author/Wenjing-Yang/2120811655). I earned my B.E. degree at China University of Geosciences in 2023. Prior to that, I served for two years in the People’s Liberation Army.
 
 My primary research interest focus on **Foundation Models for Multimodal Learning**. I am also interested in **Causal Inference** and **Reinforcement Learning**. My overarching research goal is to build reliable and generalizable multimodal intelligence, with a focus on developing principled methods that integrate vision, language, and structured reasoning under real-world conditions.
 
