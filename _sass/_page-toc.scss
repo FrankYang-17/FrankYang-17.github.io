@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Collapsible page table of contents
+   Floating, expandable page table of contents
    ========================================================================== */
 
 .page-toc {
@@ -11,56 +11,41 @@
   scroll-margin-top: 6em;
 }
 
-@media screen and (min-width: 1280px) {
-  #main.has-page-toc {
-    display: grid;
-    grid-template-columns: 190px minmax(0, 1fr) auto;
-    column-gap: clamp(1.25rem, 2vw, 2rem);
-    align-items: start;
-    max-width: 1500px;
-
-    > .sidebar {
-      grid-column: 1;
-      float: none;
-      width: auto;
-      margin: 0;
-    }
-
-    > .page {
-      grid-column: 2;
-      float: none;
-      width: auto;
-      min-width: 0;
-      margin: 0;
-      padding: 0;
-    }
-
-    > .page-toc {
-      display: block;
-      grid-column: 3;
-      position: -webkit-sticky;
-      position: sticky;
-      top: 6em;
-      max-height: calc(100vh - 7em);
-      overflow-y: auto;
-    }
+@media screen and (min-width: 1024px) {
+  #main.has-page-toc > .page-toc {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 1rem;
+    z-index: 20;
+    max-height: calc(100vh - 2rem);
+    transform: translateY(-50%);
   }
 
   .page-toc__details {
-    width: 220px;
+    width: 3rem;
     color: $gray;
     background: #fff;
     border: 1px solid $border-color;
-    border-radius: $border-radius;
-    box-shadow: 0 1px 4px rgba(#000, 0.06);
-    transition: width 0.2s ease;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px rgba(#000, 0.12);
+    overflow: hidden;
+    transition: width 0.2s ease, border-radius 0.2s ease;
+
+    &:hover,
+    &:focus-within,
+    &[open] {
+      width: 220px;
+      border-radius: $border-radius;
+    }
   }
 
   .page-toc__summary {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0.65rem 0.75rem;
+    justify-content: center;
+    min-height: 3rem;
+    padding: 0.6rem;
     color: $dark-gray;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
@@ -68,12 +53,23 @@
     cursor: pointer;
     list-style: none;
     user-select: none;
+    white-space: nowrap;
 
     &::-webkit-details-marker {
       display: none;
     }
 
+    span {
+      font-size: 0;
+    }
+
+    .fas {
+      margin: 0;
+      font-size: 1rem;
+    }
+
     &::after {
+      display: none;
       content: "▾";
       margin-left: 0.5rem;
       font-size: 0.8em;
@@ -90,37 +86,53 @@
       outline: 2px solid $primary-color;
       outline-offset: -2px;
     }
+  }
+
+  .page-toc__details:hover .page-toc__summary,
+  .page-toc__details:focus-within .page-toc__summary,
+  .page-toc__details[open] .page-toc__summary {
+    justify-content: space-between;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+
+    span {
+      font-size: inherit;
+    }
 
     .fas {
       margin-right: 0.35rem;
+      font-size: inherit;
+    }
+
+    &::after {
+      display: block;
     }
   }
 
-  .page-toc__details:not([open]) {
-    width: 3rem;
-
-    .page-toc__summary {
-      justify-content: center;
-      padding-right: 0.5rem;
-      padding-left: 0.5rem;
-
-      span {
-        font-size: 0;
-      }
-
-      .fas {
-        margin: 0;
-        font-size: 1rem;
-      }
-
-      &::after {
-        display: none;
-      }
-    }
+  .page-toc__details[open] .page-toc__summary::after {
+    transform: rotate(180deg);
   }
 
   .page-toc__nav {
-    border-top: 1px solid $border-color;
+    display: block !important;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    overflow: hidden;
+    border-top: 0 solid $border-color;
+    transition: max-height 0.25s ease, opacity 0.15s ease;
+  }
+
+  .page-toc__details:hover .page-toc__nav,
+  .page-toc__details:focus-within .page-toc__nav,
+  .page-toc__details[open] .page-toc__nav {
+    max-height: calc(100vh - 8rem);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    overflow-y: auto;
+    border-top-width: 1px;
   }
 
   .page-toc__menu,
@@ -128,6 +140,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+
+  .page-toc__sublist {
+    margin: 0 0 0.25rem 0.75rem;
+    border-left: 1px solid $border-color;
   }
 
   .page-toc__menu a {
@@ -148,7 +165,7 @@
   }
 
   .page-toc__sublist a {
-    padding-left: 1.35rem;
+    padding-left: 0.75rem;
     font-size: 0.68rem;
     font-weight: normal;
   }
