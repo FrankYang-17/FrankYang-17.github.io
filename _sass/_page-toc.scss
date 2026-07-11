@@ -15,11 +15,10 @@
   #main.has-page-toc > .page-toc {
     display: block;
     position: fixed;
-    top: 50%;
+    top: 5rem;
     right: 1rem;
     z-index: 20;
-    max-height: calc(100vh - 2rem);
-    transform: translateY(-50%);
+    max-height: calc(100vh - 6rem);
   }
 
   .page-toc__details {
@@ -32,9 +31,7 @@
     overflow: hidden;
     transition: width 0.2s ease, border-radius 0.2s ease;
 
-    &:hover,
-    &:focus-within,
-    &[open] {
+    &:hover {
       width: 220px;
       border-radius: $border-radius;
     }
@@ -50,14 +47,9 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     font-weight: bold;
-    cursor: pointer;
-    list-style: none;
+    cursor: default;
     user-select: none;
     white-space: nowrap;
-
-    &::-webkit-details-marker {
-      display: none;
-    }
 
     span {
       font-size: 0;
@@ -68,30 +60,14 @@
       font-size: 1rem;
     }
 
-    &::after {
-      display: none;
-      content: "▾";
-      margin-left: 0.5rem;
-      font-size: 0.8em;
-      transition: transform 0.2s ease;
-    }
-
-    &:hover,
-    &:focus-visible {
+    &:hover {
       color: $primary-color;
       background: $lighter-gray;
     }
-
-    &:focus-visible {
-      outline: 2px solid $primary-color;
-      outline-offset: -2px;
-    }
   }
 
-  .page-toc__details:hover .page-toc__summary,
-  .page-toc__details:focus-within .page-toc__summary,
-  .page-toc__details[open] .page-toc__summary {
-    justify-content: space-between;
+  .page-toc__details:hover .page-toc__summary {
+    justify-content: flex-start;
     padding-right: 0.75rem;
     padding-left: 0.75rem;
 
@@ -104,13 +80,6 @@
       font-size: inherit;
     }
 
-    &::after {
-      display: block;
-    }
-  }
-
-  .page-toc__details[open] .page-toc__summary::after {
-    transform: rotate(180deg);
   }
 
   .page-toc__nav {
@@ -124,10 +93,8 @@
     transition: max-height 0.25s ease, opacity 0.15s ease;
   }
 
-  .page-toc__details:hover .page-toc__nav,
-  .page-toc__details:focus-within .page-toc__nav,
-  .page-toc__details[open] .page-toc__nav {
-    max-height: calc(100vh - 8rem);
+  .page-toc__details:hover .page-toc__nav {
+    max-height: calc(100vh - 9rem);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;

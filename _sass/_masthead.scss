@@ -20,11 +20,12 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($large) {
-      padding-left: 2em;
+      padding-left: 3em;
     }
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+      padding-left: 4em;
     }
 
     nav {
@@ -64,4 +65,3 @@
     font-weight: 700;
   }
 }
-

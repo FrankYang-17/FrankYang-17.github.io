@@ -1,8 +1,8 @@
 <aside class="page-toc" aria-label="{{ page.toc_label | default: 'Contents' }}">
-  <details class="page-toc__details">
-    <summary class="page-toc__summary" title="Hover or click to show the page contents">
+  <div class="page-toc__details">
+    <div class="page-toc__summary" title="Hover to show the page contents">
       <span><i class="fas fa-list-ul" aria-hidden="true"></i> {{ page.toc_label | default: "Contents" }}</span>
-    </summary>
+    </div>
     <nav class="page-toc__nav" aria-label="In-page navigation">
       <ul class="page-toc__menu">
         {% for link in page.toc_links %}
@@ -19,5 +19,5 @@
         {% endfor %}
       </ul>
     </nav>
-  </details>
+  </div>
 </aside>

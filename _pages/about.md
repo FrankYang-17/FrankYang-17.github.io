@@ -93,6 +93,17 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) [**ICML 2025**]<br><span style="font-size: 80%;">*Yi-Fan Zhang‡, Tao Yu, Haochen Tian, Chaoyou Fu†, Peiyan Li, Jianshu Zeng, Wulin Xie, **Yang Shi**, Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu, Bin Wen†, Fan Yang, Zhang Zhang†, Tingting Gao, Di Zhang, Liang Wang, Rong Jin, Tieniu Tan*</span>
 - [Debiasing Multimodal Large Language Models via Penalization of Language Priors](https://arxiv.org/abs/2403.05262) [**ACM MM 2025**]<br><span style="font-size: 80%;">*Yi-Fan Zhang\*, **Yang Shi\***, Weichen Yu, Qingsong Wen†, Xue Wang, Wenjing Yang, Zhang Zhang, Liang Wang, Rong Jin*</span>
 
+<span class="publication-anchor" id="theory-generalization"></span>
+**💡 Theory & Generalization**
+
+- [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
+- [Detecting Unobserved Confounders: A Kernelized Regression Approach](https://arxiv.org/abs/2601.00200) [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
+- [When Modalities Conflict: How Unimodal Reasoning Uncertainty Governs Preference Dynamics in MLLMs](https://arxiv.org/abs/2511.02243) [**ICML 2026**]<br><span style="font-size: 80%;">*Zhuoran Zhang, Tengyue Wang, Xilin Gong, **Yang Shi**, Haotian Wang, Di Wang, Lijie Hu*</span>
+- [Transformers with Endogenous In-Context Learning: Bias Characterization and Mitigation](https://openreview.net/forum?id=guKWBA2HWf) [**ICLR 2026**]<br><span style="font-size: 80%;">*Haotian Wang, Haoxuan Li, Hao Zou, Haoang Chi, **Yang Shi**, Yuanxing Zhang, Wenjing Yang, Xinwang Liu, Zhouchen Lin*</span>
+- [Identifying Outcome-Oriented Root Causes via Cross Regression](https://openreview.net/forum?id=MG5UFZ2Fa2)<br><span style="font-size: 80%;">*Haotian Wang, Hao Zou, Haoxuan Li, **Yang Shi**, Yuanxing Zhang, Kun Kuang, Wenjing Yang, Xinwang Liu, Peng Cui*</span>
+- [Beyond Rational Illusion: Behaviorally Realistic Strategic Classification](https://openreview.net/forum?id=OziO3CZHxh) [**ICML 2026**]<br><span style="font-size: 80%;">*Xinpeng Lv, Haotian Wang, Renzhe Xu, Yunxin Mao, **Yang Shi**, Siyang Gao, Xinwang Liu, Wenjing Yang*</span>
+- [A Unified and Data-Efficient Framework for Out-of-Distribution and Generalization](https://openreview.net/forum?id=b5K7k80gHU)<br><span style="font-size: 80%;">*Zhaohui Hu, Hongli Xiao, Yonglin Li, Chuan Li, **Yang Shi**, Mengzhu Wang, Haotian Wang, Long Lan*</span>
+
 <span class="publication-anchor" id="benchmarks-evaluation"></span>
 **📊 Benchmarks & Evaluation**
 
@@ -116,17 +127,6 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 - [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](https://arxiv.org/abs/2604.04707)<br><span style="font-size: 80%;">*DataFlow Team (Contributor: **Yang Shi**)*</span>
 - [OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation and Editing](https://arxiv.org/abs/2509.24900) [**ICML 2026**]<br><span style="font-size: 80%;">*Zhihong Chen\*, Xuehai Bai\*, **Yang Shi\***, Chaoyou Fu, Huanyu Zhang, Haotian Wang, Xiaoyan Sun, Zhang Zhang, Liang Wang, Yuanxing Zhang†, Pengfei Wan, Yi-Fan Zhang†‡*</span>
-
-<span class="publication-anchor" id="theory-generalization"></span>
-**💡 Theory & Generalization**
-
-- [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
-- [Detecting Unobserved Confounders: A Kernelized Regression Approach](https://arxiv.org/abs/2601.00200) [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
-- [When Modalities Conflict: How Unimodal Reasoning Uncertainty Governs Preference Dynamics in MLLMs](https://arxiv.org/abs/2511.02243) [**ICML 2026**]<br><span style="font-size: 80%;">*Zhuoran Zhang, Tengyue Wang, Xilin Gong, **Yang Shi**, Haotian Wang, Di Wang, Lijie Hu*</span>
-- [Transformers with Endogenous In-Context Learning: Bias Characterization and Mitigation](https://openreview.net/forum?id=guKWBA2HWf) [**ICLR 2026**]<br><span style="font-size: 80%;">*Haotian Wang, Haoxuan Li, Hao Zou, Haoang Chi, **Yang Shi**, Yuanxing Zhang, Wenjing Yang, Xinwang Liu, Zhouchen Lin*</span>
-- [Identifying Outcome-Oriented Root Causes via Cross Regression](https://openreview.net/forum?id=MG5UFZ2Fa2)<br><span style="font-size: 80%;">*Haotian Wang, Hao Zou, Haoxuan Li, **Yang Shi**, Yuanxing Zhang, Kun Kuang, Wenjing Yang, Xinwang Liu, Peng Cui*</span>
-- [Beyond Rational Illusion: Behaviorally Realistic Strategic Classification](https://openreview.net/forum?id=OziO3CZHxh) [**ICML 2026**]<br><span style="font-size: 80%;">*Xinpeng Lv, Haotian Wang, Renzhe Xu, Yunxin Mao, **Yang Shi**, Siyang Gao, Xinwang Liu, Wenjing Yang*</span>
-- [A Unified and Data-Efficient Framework for Out-of-Distribution and Generalization](https://openreview.net/forum?id=b5K7k80gHU)<br><span style="font-size: 80%;">*Zhaohui Hu, Hongli Xiao, Yonglin Li, Chuan Li, **Yang Shi**, Mengzhu Wang, Haotian Wang, Long Lan*</span>
 
 <span class="publication-anchor" id="surveys-perspectives"></span>
 **📚 Surveys & Perspectives**
