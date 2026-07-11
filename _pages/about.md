@@ -3,6 +3,32 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+toc: true
+toc_label: "Contents"
+toc_links:
+  - title: "About Me"
+    url: "#about-me"
+  - title: "News"
+    url: "#-news"
+  - title: "Publications"
+    url: "#-publications"
+    children:
+      - title: "🤖 Models & Training"
+        url: "#models-training"
+      - title: "📊 Benchmarks & Evaluation"
+        url: "#benchmarks-evaluation"
+      - title: "🗃️ Datasets & Open Source"
+        url: "#datasets-open-source"
+      - title: "💡 Theory & Generalization"
+        url: "#theory-generalization"
+      - title: "📚 Surveys & Perspectives"
+        url: "#surveys-perspectives"
+  - title: "Work Experience"
+    url: "#-work-experience"
+  - title: "Education"
+    url: "#-education"
+  - title: "Honors and Awards"
+    url: "#-honors-and-awards"
 redirect_from: 
   - /about/
   - /about.html
@@ -47,6 +73,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 <!-- - [KeyFrame-GenEval]()<br><span style="font-size: 80%;">*Yuqi Tang, **Yang Shi‡***</span> -->
 
+<span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
 
 - [DOPD: Dual On-policy Distillation](https://arxiv.org/abs/2606.30626)<br><span style="font-size: 80%;">*Xinlei Yu, Gen Li, Qingyi Si, Guibin Zhang, Yuqi Xu, Congcong Wang, Shuai Dong, Kaiwen Tuo, Xiangyu Zeng, Kaituo Feng, Qunzhong Wang, **Yang Shi**, Xiaobin Hu, Xiangyu Yue, Jiaqi Wang, Shuicheng Yan*</span>
@@ -66,6 +93,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391) [**ICML 2025**]<br><span style="font-size: 80%;">*Yi-Fan Zhang‡, Tao Yu, Haochen Tian, Chaoyou Fu†, Peiyan Li, Jianshu Zeng, Wulin Xie, **Yang Shi**, Huanyu Zhang, Junkang Wu, Xue Wang, Yibo Hu, Bin Wen†, Fan Yang, Zhang Zhang†, Tingting Gao, Di Zhang, Liang Wang, Rong Jin, Tieniu Tan*</span>
 - [Debiasing Multimodal Large Language Models via Penalization of Language Priors](https://arxiv.org/abs/2403.05262) [**ACM MM 2025**]<br><span style="font-size: 80%;">*Yi-Fan Zhang\*, **Yang Shi\***, Weichen Yu, Qingsong Wen†, Xue Wang, Wenjing Yang, Zhang Zhang, Liang Wang, Rong Jin*</span>
 
+<span class="publication-anchor" id="benchmarks-evaluation"></span>
 **📊 Benchmarks & Evaluation**
 
 - [CapRiCorn-1K: A Comprehensive Benchmark for Video Captioning and Subject Referential Consistency Across Temporal Scales](https://arxiv.org/abs/2606.21949)<br><span style="font-size: 80%;">*Xinlong Chen, Jiafu Tang, Yue Ding, Yizhuo Jia, Bozhou Li, Bohan Zeng, **Yang Shi**, Shihao Li, Yiyan Ji, Qiang Liu, Weihong Lin, Yuanxing Zhang, Pengfei Wan, Liang Wang, Tieniu Tan*</span>
@@ -83,11 +111,13 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [MME-Unify: A Comprehensive Benchmark for Unified Multimodal Understanding and Generation Models](https://arxiv.org/abs/2504.03641) [**ICLR 2026**]<br><span style="font-size: 80%;">*Wulin Xie\*, Yi-Fan Zhang\*‡, Chaoyou Fu, **Yang Shi**, Bingyan Nie, Hongkai Chen, Zhang Zhang, Liang Wang, Tieniu Tan*</span>
 - [EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](https://arxiv.org/abs/2501.11858v1) [**CVPR 2026 Workshop**]<br><span style="font-size: 80%;">*Zhili Cheng‡, Yuge Tu\#, Ran Li\#, Shiqi Dai\#, Jinyi Hu\#‡, Shengding Hu, Jiahao Li, **Yang Shi**, Tianyu Yu, Weize Chen, Lei Shi, Maosong Sun†*</span>
 
+<span class="publication-anchor" id="datasets-open-source"></span>
 **🗃️ Datasets & Open Source**
 
 - [OpenWorldLib: A Unified Codebase and Definition of Advanced World Models](https://arxiv.org/abs/2604.04707)<br><span style="font-size: 80%;">*DataFlow Team (Contributor: **Yang Shi**)*</span>
 - [OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation and Editing](https://arxiv.org/abs/2509.24900) [**ICML 2026**]<br><span style="font-size: 80%;">*Zhihong Chen\*, Xuehai Bai\*, **Yang Shi\***, Chaoyou Fu, Huanyu Zhang, Haotian Wang, Xiaoyan Sun, Zhang Zhang, Liang Wang, Yuanxing Zhang†, Pengfei Wan, Yi-Fan Zhang†‡*</span>
 
+<span class="publication-anchor" id="theory-generalization"></span>
 **💡 Theory & Generalization**
 
 - [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
@@ -98,6 +128,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [Beyond Rational Illusion: Behaviorally Realistic Strategic Classification](https://openreview.net/forum?id=OziO3CZHxh) [**ICML 2026**]<br><span style="font-size: 80%;">*Xinpeng Lv, Haotian Wang, Renzhe Xu, Yunxin Mao, **Yang Shi**, Siyang Gao, Xinwang Liu, Wenjing Yang*</span>
 - [A Unified and Data-Efficient Framework for Out-of-Distribution and Generalization](https://openreview.net/forum?id=b5K7k80gHU)<br><span style="font-size: 80%;">*Zhaohui Hu, Hongli Xiao, Yonglin Li, Chuan Li, **Yang Shi**, Mengzhu Wang, Haotian Wang, Long Lan*</span>
 
+<span class="publication-anchor" id="surveys-perspectives"></span>
 **📚 Surveys & Perspectives**
 
 - [Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks](https://arxiv.org/abs/2602.01630)<br><span style="font-size: 80%;">*Bohan Zeng, Kaixin Zhu, Daili Hua, Bozhou Li, Chengzhuo Tong, Yuran Wang, Xinyi Huang, Yifan Dai, Zixiang Zhang, Yifan Yang, Zhou Liu, Hao Liang, Xiaochen Ma, Ruichuan An, Tianyi Bai, Hongcheng Gao, Junbo Niu, **Yang Shi**, Xinlong Chen, Yue Ding, Minglei Shi, Kai Zeng, Yiwen Tang, Yuanxing Zhang, Pengfei Wan, Xintao Wang, Wentao Zhang*</span>

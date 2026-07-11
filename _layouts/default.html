@@ -14,7 +14,7 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main" role="main"{% if page.toc and page.toc_links %} class="has-page-toc"{% endif %}>
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -25,6 +25,10 @@ layout: compress
           </section>
         </div>
       </article>
+
+      {% if page.toc and page.toc_links %}
+        {% include page-toc.html %}
+      {% endif %}
     </div>
 
     {% include scripts.html %}

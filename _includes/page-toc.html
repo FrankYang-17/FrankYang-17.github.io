@@ -1,0 +1,23 @@
+<aside class="page-toc" aria-label="{{ page.toc_label | default: 'Contents' }}">
+  <details class="page-toc__details" open>
+    <summary class="page-toc__summary" title="Collapse or expand the page contents">
+      <span><i class="fas fa-list-ul" aria-hidden="true"></i> {{ page.toc_label | default: "Contents" }}</span>
+    </summary>
+    <nav class="page-toc__nav" aria-label="In-page navigation">
+      <ul class="page-toc__menu">
+        {% for link in page.toc_links %}
+          <li>
+            <a href="{{ link.url }}" target="_self">{{ link.title }}</a>
+            {% if link.children %}
+              <ul class="page-toc__sublist">
+                {% for child in link.children %}
+                  <li><a href="{{ child.url }}" target="_self">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </details>
+</aside>
