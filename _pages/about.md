@@ -138,7 +138,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [OpenGPT-4o-Image: A Comprehensive Dataset for Advanced Image Generation and Editing](https://arxiv.org/abs/2509.24900) [**ICML 2026**]<br><span style="font-size: 80%;">*Zhihong Chen\*, Xuehai Bai\*, **Yang Shi\***, Chaoyou Fu, Huanyu Zhang, Haotian Wang, Xiaoyan Sun, Zhang Zhang, Liang Wang, Yuanxing Zhang†, Pengfei Wan, Yi-Fan Zhang†‡*</span>
 
 <span class="publication-anchor" id="surveys-perspectives"></span>
-**📚 Surveys & Perspectives**
+**📚 Surveys & Technical Report**
 
 - [Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks](https://arxiv.org/abs/2602.01630)<br><span style="font-size: 80%;">*Bohan Zeng, Kaixin Zhu, Daili Hua, Bozhou Li, Chengzhuo Tong, Yuran Wang, Xinyi Huang, Yifan Dai, Zixiang Zhang, Yifan Yang, Zhou Liu, Hao Liang, Xiaochen Ma, Ruichuan An, Tianyi Bai, Hongcheng Gao, Junbo Niu, **Yang Shi**, Xinlong Chen, Yue Ding, Minglei Shi, Kai Zeng, Yiwen Tang, Yuanxing Zhang, Pengfei Wan, Xintao Wang, Wentao Zhang*</span>
 - [Towards Efficient Multimodal Large Language Models: A Survey on Token Compression](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176823010.07236701/v1)<br><span style="font-size: 80%;">*Linli Yao\*, Long Xing\*, **Yang Shi\***, Sida Li, Yuanxin Liu, Yuhao Dong, Yi-Fan Zhang, Lei Li, Qingxiu Dong, Xiaoyi Dong, Qidong Huang, Haotian Wang, Feng Wu, Yuanxing Zhang, Pengfei Wan, Zhouchen Lin†, Xu Sun†*</span>
