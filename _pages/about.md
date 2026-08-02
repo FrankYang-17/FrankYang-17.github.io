@@ -75,7 +75,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 <span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
-
+- [OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models]()<br><span style="font-size: 80%;">*Wanshun Su\*, **Yang Shi\***, Feihu Liu, Ziwen Yu, Yan Min, Zhuoran Zhang, Qixun Wang, Haotian Wang, Shixuan Liu, Yuanxing Zhang, Peng Wu‡, Chengfu Huo, Liang Ding‡*</span>
 - [Beacon: Knowing When and How to Perform Agentic Visual Reasoning](https://arxiv.org/abs/2607.28595)<br><span style="font-size: 80%;">*Qixun Wang\*, **Yang Shi\***, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang‡, Pengfei Wan, Haotian Wang, Xianghua Ying†*</span>
 - [RefCaptioner: Multi-Reference Image-Grounded Video Captioning](https://arxiv.org/abs/2607.28509)<br><span style="font-size: 80%;">*Tengfei Liu, **Yang Shi†**, Yuran Wang, Xiaohan Zhang, Yuqing Wen, Yuqi Tang, Qixun Wang, Zhuoran Zhang, Xuanyu Zhu, Weihong Lin, Xinlei Yu, Yujie Wei, Xinwei Long, Fengxiang Wang, Xinlong Chen, Yue Ding, Jialu Chen, Haotian Wang†, Yuanxing Zhang‡*</span>
 - [Flux-OPD: On-Policy Distillation with Evolving Contexts](https://arxiv.org/abs/2607.28022)<br><span style="font-size: 80%;">*Yuran Wang, Zekun Wang, Bohan Zeng, Ruixu Zhang, Wenxuan Liu, Liu Yang, Yifan Dai, **Yang Shi**, Bozhou Li, Chengzhuo Tong, Daili Hua, Yuanxing Zhang, Wentao Zhang*</span>
