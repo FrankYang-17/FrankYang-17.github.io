@@ -55,6 +55,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 
 # ✨ News
+- [2026.08] &nbsp;🎉 One papers is accepted by **EMNLP 2026**.
 - [2026.08] &nbsp;🎉 One papers is accepted by **TPAMI**.
 - [2026.07] &nbsp;🎉 Two papers are accepted by **ACM MM 2026**.
 - [2026.06] &nbsp;🎉 Two papers are accepted by **ECCV 2026**.
@@ -76,6 +77,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 <span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
+
 - [FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory](https://arxiv.org/abs/2608.04530)<br><span style="font-size: 80%;">*Zhuoran Zhang, Bowen Li, Jingcheng Ju, **Yang Shi**, Qixun Wang, Haotian Wang, Wei Chen, Tengjiao Wang*</span>
 - [OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models](https://arxiv.org/abs/2608.03812)<br><span style="font-size: 80%;">*Wanshun Su\*, **Yang Shi\***, Feihu Liu, Ziwen Yu, Yan Min, Zhuoran Zhang, Qixun Wang, Haotian Wang, Shixuan Liu, Yuanxing Zhang, Peng Wu‡, Chengfu Huo, Liang Ding‡*</span>
 - [Beacon: Knowing When and How to Perform Agentic Visual Reasoning](https://arxiv.org/abs/2607.28595)<br><span style="font-size: 80%;">*Qixun Wang\*, **Yang Shi\***, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang‡, Pengfei Wan, Haotian Wang, Xianghua Ying†*</span>
@@ -104,6 +106,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 <span class="publication-anchor" id="theory-generalization"></span>
 **💡 Theory & Generalization**
 
+- [Enhanced Semantic Alignment in Transformer Tracking via Position Learning and Force-Directed Attention]() [**TPAMI**]<br><span style="font-size: 80%;">*Mingyu Cao, Haotian Wang, Haoxuan Li, Wanrong Huang, **Yang Shi**, Yanghao Xiao, Wenjing Yang, Long Lan, Huibin Tan, Zhouchen Lin*</span>
 - [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
 - [Unveiling Prior-Data Fitted Networks on Causal Effect Estimation: Pre-Training or Fine-Tuning?](https://icml.cc/virtual/2026/poster/63252) [**ICML 2026**]<br><span style="font-size: 80%;">*Haotian_Wang, Xinpeng Lv, Hao Zou, Yanghao Xiao, Shanzhi Gu, **Yang Shi**, Yunxin Mao, Yuanxing Zhang, Mingyang Geng, Shaowu Yang, Haoxuan Li, Wenjing Yang, Peng Cui, Zhouchen Lin*</span>
 - [Detecting Unobserved Confounders: A Kernelized Regression Approach](https://arxiv.org/abs/2601.00200) [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
@@ -120,7 +123,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation](https://arxiv.org/abs/2607.14189)<br><span style="font-size: 80%;">*Xiaohan Zhang, Yuqing Wen, Junlin Chen, Yuqi Tang, Yiting He, Lizhuo Shao, Weiming Zhu, Tengfei Liu, **Yang Shi†**, Jialu Chen, Yuanxing Zhang, Huaxiong Li*</span>
 - [LongAV-Compass: Towards Unified Evaluation of Minute-Scale Audio-Visual Generation Across T2AV, I2AV, and V2AV](https://arxiv.org/abs/2605.26244)<br><span style="font-size: 80%;">*Tengfei Liu, **Yang Shi†**, Xuanyu Zhu, Jiafu Tang, Liu Yang, Qixun Wang, Zhuoran Zhang, Yuqi Tang, Fengxiang Wang, Yuhao Dong, Xinlong Chen, Bozhou Li, Bohan Zeng, Yue Ding, Xiaohan Zhang, Jialu Chen, Haotian Wang†, Yuanxing Zhang‡, Pengfei Wan, Leye Wang†*</span>
 - [Video\* Bench: Benchmarking Fine-grained Video Perception with ''Think with Videos'']() [**ACM MM 2026**]<br><span style="font-size: 80%;">*Ruizhe Chen, Zhiting Fan, **Yang Shi**, Enxin Song, Wenhao Chai, Tongkun Guan, Songtao Jiang, Ruilin Luo, Yuanxing Zhang, Shuai Bai, Sibo Song, Zhibo Yang, Zuozhu Liu*</span>
-- [CapRiCorn-1K: A Comprehensive Benchmark for Video Captioning and Subject Referential Consistency Across Temporal Scales](https://arxiv.org/abs/2606.21949)<br><span style="font-size: 80%;">*Xinlong Chen, Jiafu Tang, Yue Ding, Yizhuo Jia, Bozhou Li, Bohan Zeng, **Yang Shi**, Shihao Li, Yiyan Ji, Qiang Liu, Weihong Lin, Yuanxing Zhang, Pengfei Wan, Liang Wang, Tieniu Tan*</span>
+- [CapRiCorn-1K: A Comprehensive Benchmark for Video Captioning and Subject Referential Consistency Across Temporal Scales](https://arxiv.org/abs/2606.21949) [**EMNLP 2026**]<br><span style="font-size: 80%;">*Xinlong Chen, Jiafu Tang, Yue Ding, Yizhuo Jia, Bozhou Li, Bohan Zeng, **Yang Shi**, Shihao Li, Yiyan Ji, Qiang Liu, Weihong Lin, Yuanxing Zhang, Pengfei Wan, Liang Wang, Tieniu Tan*</span>
 - [MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation](https://arxiv.org/abs/2605.20183)<br><span style="font-size: 80%;">*Yujie Wei, Yujin Han, Zhekai Chen, Yongming Li, Kaixun Jiang, Zhihang Liu, Quanhao Li, Zhiwu Qing, Xiang Wang, Zhen Xing, Ruihang Chu, Lingyi Hong, Yefei He, Junjie Zhou, Junqiu Yu, **Yang Shi**, Difan Zou, Kai Zhu, Shiwei Zhang, Yingya Zhang, Yu Liu, Xihui Liu, Hongming Shan*</span>
 - [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos](https://arxiv.org/abs/2605.18984)<br><span style="font-size: 80%;">*Yuqi Tang\*, **Yang Shi\*‡**, Zhuoran Zhang\*, Qixun Wang\*, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan*</span>
 - [Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling](https://arxiv.org/abs/2605.13062)<br><span style="font-size: 80%;">*Xuehai Bai\*, **Yang Shi\***, YiFan Zhang\*‡, Xuanyu Zhu, Yuran Wang, Yifan Dai, Xinyu Liu, Yiyan Ji, Xiaoling Gu†, Yuanxing Zhang†*</span>
