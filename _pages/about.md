@@ -55,8 +55,8 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 
 
 # ✨ News
-- [2026.08] &nbsp;🎉 One papers is accepted by **EMNLP 2026**.
-- [2026.08] &nbsp;🎉 One papers is accepted by **TPAMI**.
+- [2026.08] &nbsp;🎉 One paper is accepted by **EMNLP 2026**.
+- [2026.08] &nbsp;🎉 One paper is accepted by **IEEE TPAMI**.
 - [2026.07] &nbsp;🎉 Two papers are accepted by **ACM MM 2026**.
 - [2026.06] &nbsp;🎉 Two papers are accepted by **ECCV 2026**.
 - [2026.05] &nbsp;🎉 Six papers are accepted by **ICML 2026**.
@@ -85,7 +85,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 - [Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing](https://arxiv.org/abs/2607.25993)<br><span style="font-size: 80%;">*Fengxiang Wang, Jiangnan Huang, Mingshuo Chen, Yueying Li, **Yang Shi**, Junwei Luo, Haoyu Wang, Yansheng Li, Jing Zhang, Haiyan Zhao, Wenjing Yang*</span>
 - [Flux-OPD: On-Policy Distillation with Evolving Contexts](https://arxiv.org/abs/2607.28022)<br><span style="font-size: 80%;">*Yuran Wang, Zekun Wang, Bohan Zeng, Ruixu Zhang, Wenxuan Liu, Liu Yang, Yifan Dai, **Yang Shi**, Bozhou Li, Chengzhuo Tong, Daili Hua, Yuanxing Zhang, Wentao Zhang*</span>
 - [ReBind: Multi-Reference Video Editing via Structured Instructions with Explicit Reference Relationships](https://arxiv.org/abs/2607.14681)<br><span style="font-size: 80%;">*Xinyu Liu, Shihao Li, Weihong Lin, Xinlong Chen, **Yang Shi**, Yujin Han, Yiyang Cai, Yanghao Wang, Ruibin Yuan, Yuanxing Zhang, Pengfei Wan, Wenhan Luo, Yike Guo*</span>
-- [Human-Centric Image Captioning with Subject-Centered Spatial Understanding]() [**ACM MM 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng, Yiyan Ji, Xinlong Chen, **Yang Shi**, Yifan Dai, Yuran Wang, Chengzhuo Tong, Pengfei Wan, Yuanxing Zhang, Wentao Zhang*</span>
+- [Human-Centric Image Captioning with Subject-Centered Spatial Understanding](https://arxiv.org/abs/2609.08300) [**ACM MM 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng, Yiyan Ji, Xinlong Chen, **Yang Shi**, Yifan Dai, Yuran Wang, Chengzhuo Tong, Pengfei Wan, Yuanxing Zhang, Wentao Zhang*</span>
 - [DOPD: Dual On-policy Distillation](https://arxiv.org/abs/2606.30626)<br><span style="font-size: 80%;">*Xinlei Yu, Gen Li, Qingyi Si, Guibin Zhang, Yuqi Xu, Congcong Wang, Shuai Dong, Kaiwen Tuo, Xiangyu Zeng, Kaituo Feng, Qunzhong Wang, **Yang Shi**, Xiaobin Hu, Xiangyu Yue, Jiaqi Wang, Shuicheng Yan*</span>
 - [LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning](https://arxiv.org/abs/2605.22012)<br><span style="font-size: 80%;">*Yifan Dai, Zhenhua Wu, Bohan Zeng, Daili Hua, Jialing Liu, Bozhou Li, Yuran Wang, Chengzhuo Tong, Hao Liang, Xiaochen Ma, Junbo Niu, Tianyu Guo, **Yang Shi**, Yue Ding, Yiyan Ji, Bingyin Mei, Yushuo Guan, Yuanxing Zhang, Pengfei Wan, Fangcheng Fu, Wentao Zhang*</span>
 - [Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization](https://arxiv.org/abs/2605.10780)<br><span style="font-size: 80%;">*Xuanyu Zhu\*, Yan Bai\*, **Yang Shi‡**, Yihang Lou, Yuanxing Zhang, Jing Jin, Yuan Zhou†*</span>
@@ -106,7 +106,7 @@ Currently I am working on **Efficient Pre-training of Multimodal Large Language 
 <span class="publication-anchor" id="theory-generalization"></span>
 **💡 Theory & Generalization**
 
-- [Enhanced Semantic Alignment in Transformer Tracking via Position Learning and Force-Directed Attention]() [**TPAMI**]<br><span style="font-size: 80%;">*Mingyu Cao, Haotian Wang, Haoxuan Li, Wanrong Huang, **Yang Shi**, Yanghao Xiao, Wenjing Yang, Long Lan, Huibin Tan, Zhouchen Lin*</span>
+- [Enhanced Semantic Alignment in Transformer Tracking via Position Learning and Force-Directed Attention](https://ieeexplore.ieee.org/document/11661711) [**IEEE TPAMI**]<br><span style="font-size: 80%;">*Mingyu Cao, Haotian Wang, Haoxuan Li, Wanrong Huang, **Yang Shi**, Yanghao Xiao, Wenjing Yang, Long Lan, Huibin Tan, Zhouchen Lin*</span>
 - [The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss](https://arxiv.org/abs/2512.08374) [**ICLR 2026**]<br><span style="font-size: 80%;">*Bozhou Li, Xinda Xue, Sihan Yang, **Yang Shi**, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang*</span>
 - [Unveiling Prior-Data Fitted Networks on Causal Effect Estimation: Pre-Training or Fine-Tuning?](https://icml.cc/virtual/2026/poster/63252) [**ICML 2026**]<br><span style="font-size: 80%;">*Haotian_Wang, Xinpeng Lv, Hao Zou, Yanghao Xiao, Shanzhi Gu, **Yang Shi**, Yunxin Mao, Yuanxing Zhang, Mingyang Geng, Shaowu Yang, Haoxuan Li, Wenjing Yang, Peng Cui, Zhouchen Lin*</span>
 - [Detecting Unobserved Confounders: A Kernelized Regression Approach](https://arxiv.org/abs/2601.00200) [**AAAI 2026**]<br><span style="font-size: 80%;">*Yikai Chen, Yunxin Mao, Hao Zou, Chunyuan Zheng, Shanzhi Gu, Haotian Wang, Shixuan Liu, **Yang Shi**, Kun Kuang, Wenjing Yang*</span>
