@@ -165,7 +165,8 @@ Currently I am working on **Code2Video (Reimagining Video Generation Beyond Exis
 - **B.E.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
 # 🎖 Honors and Awards
+- China National Scholarship, 2026
 - Ruiming Alumni Scholarship, **1‰** , 2021
-- China National Scholarship, **0.2%** , 2020
+- China National Scholarship, 2020
 - Outstanding Soldier Award, 2019
 - Outstanding Soldier Award, 2018
