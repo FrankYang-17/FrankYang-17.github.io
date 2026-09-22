@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yang Shi"
-  avatar           : "images/head_image.jpeg"
+  avatar           : "images/head_image.png"
   bio              : "Life's a struggle."
   location         : # "Beijing, China"
   employer         : "Peking University"
