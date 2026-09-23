@@ -51,7 +51,7 @@ My primary research interest lies in **Foundation Models for Multimodal Learning
 
 Motivated by this perspective, I am currently exploring **Code2Video**, which rethinks video generation from a standalone prompt-to-video model into a **programmable and compositional tool for intelligence**. Specifically, I am interested in how language models can reason about generation tasks, translate intentions into executable structures, orchestrate specialized generative capabilities, and iteratively verify and refine their outputs—exploring **code as an executable interface between reasoning and generation**. In parallel, I am working on **Efficient Pre-training of Multimodal Large Language Models** to make multimodal intelligence more scalable and computationally efficient.
 
-*I am actively seeking research discussions and collaboration opportunities, so feel free to contact me (frankyang1517@gmail.com)!* 😄
+I am always open to research discussions and collaborations, so feel free to reach out (**frankyang1517@gmail.com**)! I am also looking for **research interns to join us at the Kling Team**. We are highly open to research directions and encourage curiosity-driven exploration—if you have exciting ideas and want to explore something interesting together, I would be happy to hear from you! 😄
 
 
 # ✨ News
