@@ -165,8 +165,10 @@ I am always open to research discussions and collaborations, so feel free to rea
 - **B.E.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
 # 🎖 Honors and Awards
-- China National Scholarship, 2026
-- Ruiming Alumni Scholarship, **1‰** , 2021
-- China National Scholarship, 2020
-- Outstanding Soldier Award, 2019
-- Outstanding Soldier Award, 2018
+- China National Scholarship, *Peking University*, 2026
+- Outstanding Graduate, *China University of Geosciences*, 2023
+- Yingcai Scholarship, *China University of Geosciences*, 2022
+- Ruiming Alumni Scholarship, *China University of Geosciences*, 2021
+- China National Scholarship, *China University of Geosciences*, 2020
+- Outstanding Soldier Award, *People's Liberation Army*, 2019
+- Outstanding Soldier Award, *People's Liberation Army*, 2018
