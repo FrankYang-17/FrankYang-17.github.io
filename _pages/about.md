@@ -55,6 +55,7 @@ I am always open to research discussions and collaborations, so feel free to rea
 
 
 # ✨ News
+- [2026.09] &nbsp;🎉 One paper is accepted by **NeurIPS 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **EMNLP 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **IEEE TPAMI**.
 - [2026.07] &nbsp;🎉 Two papers are accepted by **ACM MM 2026**.
