@@ -72,16 +72,18 @@ I am always open to research discussions and collaborations, so feel free to rea
 
 # 📝 Publications 
 
-<span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Leader, # Core Contributor*</span>
+<span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Lead, # Core Contributor*</span>
 
 <!-- - [KeyFrame-GenEval]()<br><span style="font-size: 80%;">*Yuqi Tang, **Yang Shi‡***</span> -->
 
 <span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
 
+- [Verus-Insight: Towards Explainable Artifact Detection and Reasoning in AI-Generated Videos]()<br><span style="font-size: 80%;">*Zhuoran Zhang\*, **Yang Shi\*‡**, Qixun Wang\*, Tengfei Liu, Yuqi Tang, Xuanyu Zhu, Yizhuo Jia, Jingyun Hua, Shixuan Liu, Xianghua Ying†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan, Wenjing Yang*</span>
+- [Think Before You Score: Thinking Reward Model for Visual Generation]()<br><span style="font-size: 80%;">*Xuehai Bai\*, Zhenchen Tang\*, **Yang Shi\*‡**, Dianyi Wang, Tengfei Liu, Wanshun Su, Xuanyu Zhu, Ruohui Wang, Haiwen Diao, Haotian Wang†, Xiaoling Gu†, Yuanxing Zhang*</span>
 - [FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory](https://arxiv.org/abs/2608.04530)<br><span style="font-size: 80%;">*Zhuoran Zhang, Bowen Li, Jingcheng Ju, **Yang Shi**, Qixun Wang, Haotian Wang, Wei Chen, Tengjiao Wang*</span>
 - [OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models](https://arxiv.org/abs/2608.03812)<br><span style="font-size: 80%;">*Wanshun Su\*, **Yang Shi\***, Feihu Liu, Ziwen Yu, Yan Min, Zhuoran Zhang, Qixun Wang, Haotian Wang, Shixuan Liu, Yuanxing Zhang, Peng Wu‡, Chengfu Huo, Liang Ding‡*</span>
-- [Beacon: Knowing When and How to Perform Agentic Visual Reasoning](https://arxiv.org/abs/2607.28595)<br><span style="font-size: 80%;">*Qixun Wang\*, **Yang Shi\***, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang‡, Pengfei Wan, Haotian Wang, Xianghua Ying†*</span>
+- [Beacon: Knowing When and How to Perform Agentic Visual Reasoning](https://arxiv.org/abs/2607.28595)<br><span style="font-size: 80%;">*Qixun Wang\*, **Yang Shi\*‡**, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang‡, Pengfei Wan, Haotian Wang, Xianghua Ying†*</span>
 - [RefCaptioner: Multi-Reference Image-Grounded Video Captioning](https://arxiv.org/abs/2607.28509)<br><span style="font-size: 80%;">*Tengfei Liu, **Yang Shi†**, Yuran Wang, Xiaohan Zhang, Yuqing Wen, Yuqi Tang, Qixun Wang, Zhuoran Zhang, Xuanyu Zhu, Weihong Lin, Xinlei Yu, Yujie Wei, Xinwei Long, Fengxiang Wang, Xinlong Chen, Yue Ding, Jialu Chen, Haotian Wang†, Yuanxing Zhang‡*</span>
 - [Beyond Zooming: Learning Multi-Tool Visual Reasoning for Ultra-High-Resolution Remote Sensing](https://arxiv.org/abs/2607.25993)<br><span style="font-size: 80%;">*Fengxiang Wang, Jiangnan Huang, Mingshuo Chen, Yueying Li, **Yang Shi**, Junwei Luo, Haoyu Wang, Yansheng Li, Jing Zhang, Haiyan Zhao, Wenjing Yang*</span>
 - [Flux-OPD: On-Policy Distillation with Evolving Contexts](https://arxiv.org/abs/2607.28022)<br><span style="font-size: 80%;">*Yuran Wang, Zekun Wang, Bohan Zeng, Ruixu Zhang, Wenxuan Liu, Liu Yang, Yifan Dai, **Yang Shi**, Bozhou Li, Chengzhuo Tong, Daili Hua, Yuanxing Zhang, Wentao Zhang*</span>
