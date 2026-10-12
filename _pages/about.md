@@ -79,6 +79,7 @@ I am always open to research discussions and collaborations, so feel free to rea
 <span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
 
+- [Answer with Evidence: Consistency-Aware Grounded Visual Question Answering for Roadside Traffic Scenes](https://arxiv.org/abs/2610.05274)<br><span style="font-size: 80%;">*Runwei Guan, Rongsheng Hu, Shangshu Chen, Ningwei Ouyang, Shaofeng Liang, Heyi Lin, Jinjing Zhu, **Yang Shi**, Dongming Wu, Daizong Liu, Henghui Ding, Hui Xiong*</span>
 - [Verus-Insight: Towards Explainable Artifact Detection and Reasoning in AI-Generated Videos]()<br><span style="font-size: 80%;">*Zhuoran Zhang\*, **Yang Shi\*‡**, Qixun Wang\*, Tengfei Liu, Yuqi Tang, Xuanyu Zhu, Yizhuo Jia, Jingyun Hua, Shixuan Liu, Xianghua Ying†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan, Wenjing Yang*</span>
 - [Think Before You Score: Thinking Reward Model for Visual Generation](https://arxiv.org/abs/2609.37372)<br><span style="font-size: 80%;">*Xuehai Bai\*, Zhenchen Tang\*, **Yang Shi\*‡**, Dianyi Wang, Tengfei Liu, Wanshun Su, Xuanyu Zhu, Ruohui Wang, Haiwen Diao, Haotian Wang†, Xiaoling Gu†, Yuanxing Zhang*</span>
 - [HiRAE: Hierarchical Representation Autoencoding with Residual Budgets](https://arxiv.org/abs/2609.37775)<br><span style="font-size: 80%;">*Xuanyu Zhu, Yan Bai, **Yang Shi‡**, Yihang Lou, Yuanxing Zhang, Tengfei Liu, Jing Jin, Yuan Zhou†*</span>
