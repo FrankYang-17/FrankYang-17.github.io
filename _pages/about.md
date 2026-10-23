@@ -74,13 +74,12 @@ I am always open to research discussions and collaborations, so feel free to rea
 
 <span style="font-size: 90%;">*\* Equal Contribution, † Corresponding Author, ‡ Project Lead, # Core Contributor*</span>
 
-<!-- - [KeyFrame-GenEval]()<br><span style="font-size: 80%;">*Yuqi Tang, **Yang Shi‡***</span> -->
-
 <span class="publication-anchor" id="models-training"></span>
 **🤖 Models & Training**
 
+- [PIGEONS: Incremental Long-Video Captioning with Persistent Identity Gallery and Evolving Overarching Narrative Summary](https://arxiv.org/abs/2610.16066)<br><span style="font-size: 80%;">*Xinlong Chen, Weihong Lin, Yuanxing Zhang, Xinyu Liu, Yue Ding, Bozhou Li, Bohan Zeng, **Yang Shi**, Qiang Liu, Pengfei Wan, Liang Wang, Tieniu Tan*</span>
 - [Answer with Evidence: Consistency-Aware Grounded Visual Question Answering for Roadside Traffic Scenes](https://arxiv.org/abs/2610.05274)<br><span style="font-size: 80%;">*Runwei Guan, Rongsheng Hu, Shangshu Chen, Ningwei Ouyang, Shaofeng Liang, Heyi Lin, Jinjing Zhu, **Yang Shi**, Dongming Wu, Daizong Liu, Henghui Ding, Hui Xiong*</span>
-- [Verus-Insight: Towards Explainable Artifact Detection and Reasoning in AI-Generated Videos]()<br><span style="font-size: 80%;">*Zhuoran Zhang\*, **Yang Shi\*‡**, Qixun Wang\*, Tengfei Liu, Yuqi Tang, Xuanyu Zhu, Yizhuo Jia, Jingyun Hua, Shixuan Liu, Xianghua Ying†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan, Wenjing Yang*</span>
+- [Verus-Insight: Towards Explainable Artifact Detection and Reasoning in AI-Generated Videos](https://arxiv.org/abs/2610.30866)<br><span style="font-size: 80%;">*Zhuoran Zhang\*, **Yang Shi\*‡**, Qixun Wang\*, Tengfei Liu, Yuqi Tang, Xuanyu Zhu, Yizhuo Jia, Jingyun Hua, Shixuan Liu, Xianghua Ying†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan, Wenjing Yang*</span>
 - [Think Before You Score: Thinking Reward Model for Visual Generation](https://arxiv.org/abs/2609.37372)<br><span style="font-size: 80%;">*Xuehai Bai\*, Zhenchen Tang\*, **Yang Shi\*‡**, Dianyi Wang, Tengfei Liu, Wanshun Su, Xuanyu Zhu, Ruohui Wang, Haiwen Diao, Haotian Wang†, Xiaoling Gu†, Yuanxing Zhang*</span>
 - [HiRAE: Hierarchical Representation Autoencoding with Residual Budgets](https://arxiv.org/abs/2609.37775)<br><span style="font-size: 80%;">*Xuanyu Zhu, Yan Bai, **Yang Shi‡**, Yihang Lou, Yuanxing Zhang, Tengfei Liu, Jing Jin, Yuan Zhou†*</span>
 - [FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory](https://arxiv.org/abs/2608.04530)<br><span style="font-size: 80%;">*Zhuoran Zhang, Bowen Li, Jingcheng Ju, **Yang Shi**, Qixun Wang, Haotian Wang, Wei Chen, Tengjiao Wang*</span>
@@ -171,6 +170,7 @@ I am always open to research discussions and collaborations, so feel free to rea
 
 # 🎖 Honors and Awards
 - China National Scholarship, *Peking University*, 2026
+- Merit Student, *Peking University*, 2026
 - Outstanding Graduate, *China University of Geosciences*, 2023
 - Yingcai Scholarship, *China University of Geosciences*, 2022
 - Ruiming Alumni Scholarship, *China University of Geosciences*, 2021
