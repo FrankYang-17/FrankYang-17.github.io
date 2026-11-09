@@ -51,10 +51,15 @@ My primary research interest lies in **Foundation Models for Multimodal Learning
 
 Motivated by this perspective, I am currently exploring **Code2Video**, which rethinks video generation from a standalone prompt-to-video model into a **programmable and compositional tool for intelligence**. Specifically, I am interested in how language models can reason about generation tasks, translate intentions into executable structures, orchestrate specialized generative capabilities, and iteratively verify and refine their outputs—exploring **code as an executable interface between reasoning and generation**. In parallel, I am working on **Efficient Pre-training of Multimodal Large Language Models** to make multimodal intelligence more scalable and computationally efficient.
 
-I am always open to research discussions and collaborations, so feel free to reach out (**frankyang1517@gmail.com**)! I am also looking for **research interns to join us at the Kling Team**. We are highly open to research directions and encourage curiosity-driven exploration—if you have exciting ideas and want to explore something interesting together, I would be happy to hear from you! 😄
+I'm always excited to connect with people who share a passion for research, innovation, and building new things. Here are a few ways we can connect:
+
+- 🔬 **Research & Collaboration:** I am always open to research discussions and collaborations. Feel free to reach out at **frankyang1517@gmail.com**!
+- 🌟 **Research Internships:** I am looking for **research interns to join the Kling Team**. We welcome diverse research directions and encourage curiosity-driven exploration. If you have exciting ideas, I'd love to explore them together! 😄
+- 🚀 **Startups:** Recently, I have also been exploring **AI startup ideas**. If you share the ambition to build something impactful from the ground up, let's connect and embark on this adventure together! I also welcome conversations with **VCs, founders, and fellow entrepreneurs**.
 
 
 # ✨ News
+- [2026.11] &nbsp;💡 We release the [**Kling Technical Report**](https://arxiv.org/pdf/2611.04916), sharing practical observations and insights on **multimodal understanding for video generation**.
 - [2026.09] &nbsp;🎉 One paper is accepted by **NeurIPS 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **EMNLP 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **IEEE TPAMI**.
@@ -68,7 +73,7 @@ I am always open to research discussions and collaborations, so feel free to rea
 - [2025.09] &nbsp;🎉 One paper is accepted by **NeurIPS 2025**.
 - [2025.07] &nbsp;🎉 Two papers are accepted by **ACM MM 2025**.
 - [2025.05] &nbsp;🎉 One paper is accepted by **ICML 2025**.
-- [2025.02] &nbsp;🚀 I join the **Kling Team** at Kuaishou Technology as a research intern.
+- [2025.02] &nbsp;🚀 I join the **Kling AI** as a research intern.
 
 # 📝 Publications 
 
@@ -158,7 +163,7 @@ I am always open to research discussions and collaborations, so feel free to rea
 - [A Survey of Unified Multimodal Understanding and Generation: Advances and Challenges](https://www.techrxiv.org/users/993777/articles/1355509-a-survey-of-unified-multimodal-understanding-and-generation-advances-and-challenges)<br><span style="font-size: 80%;">*Yan Yang\*, Haochen Tian\*, **Yang Shi\***, Wulin Xie\*, Yi-Fan Zhang†, Yuhao Dong, Yibo Hu, Liang Wang, Ran He, Caifeng Shan, Chaoyou Fu†, Tieniu Tan*</span>
 
 # 👨‍💻 Work Experience
-- Research Intern at *Kling AI*, **Kuaishou Technology**, 2025.02 - Present
+- Research Intern at **Kling AI**, 2025.02 - Present
   - In collaboration with Dr. [Yuanxing Zhang](https://longo11070001.github.io/)
 - Visiting Student at *THUNLP*, **Tsinghua University**, 2023.11 - 2025.02
   - In collaboration with Prof. [Zhiyuan Liu](https://scholar.google.com/citations?user=dT0v5u0AAAAJ&hl=en)
@@ -172,11 +177,11 @@ I am always open to research discussions and collaborations, so feel free to rea
 - **B.E.** School of Computer Science, **China University of Geosciences**, 2019 - 2023
 
 # 🎖 Honors and Awards
-- China National Scholarship, *Peking University*, 2026
-- Merit Student, *Peking University*, 2026
-- Outstanding Graduate, *China University of Geosciences*, 2023
-- Yingcai Scholarship, *China University of Geosciences*, 2022
-- Ruiming Alumni Scholarship, *China University of Geosciences*, 2021
-- China National Scholarship, *China University of Geosciences*, 2020
-- Outstanding Soldier Award, *People's Liberation Army*, 2019
-- Outstanding Soldier Award, *People's Liberation Army*, 2018
+- **China National Scholarship**, Peking University, 2026
+- **Merit Student**, Peking University, 2026
+- **Outstanding Graduate**, China University of Geosciences, 2023
+- **Yingcai Scholarship**, China University of Geosciences, 2022
+- **Ruiming Alumni Scholarship**, China University of Geosciences, 2021
+- **China National Scholarship**, China University of Geosciences, 2020
+- **Outstanding Soldier Award**, People's Liberation Army, 2019
+- **Outstanding Soldier Award**, People's Liberation Army, 2018
