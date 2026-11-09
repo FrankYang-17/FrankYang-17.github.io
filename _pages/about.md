@@ -54,7 +54,7 @@ Motivated by this perspective, I am currently exploring **Code2Video**, which re
 I'm always excited to connect with people who share a passion for research, innovation, and building new things. Here are a few ways we can connect:
 
 - 🔬 **Research & Collaboration:** I am always open to research discussions and collaborations. Feel free to reach out at **frankyang1517@gmail.com**!
-- 🌟 **Research Internships:** I am looking for **research interns to join the Kling Team**. We welcome diverse research directions and encourage curiosity-driven exploration. If you have exciting ideas, I'd love to explore them together! 😄
+- 🌟 **Research Internships:** I am looking for **research interns to join the Kling Team**. We welcome diverse research directions and encourage curiosity-driven exploration. If you have exciting ideas, I'd love to explore them together!
 - 🚀 **Startups:** I am actively exploring **AI startup ideas**. If you share the ambition to build something impactful from the ground up, let's connect and embark on this adventure together! I also welcome conversations with **VCs, founders, and fellow entrepreneurs**.
 
 
