@@ -55,11 +55,11 @@ I'm always excited to connect with people who share a passion for research, inno
 
 - 🔬 **Research & Collaboration:** I am always open to research discussions and collaborations. Feel free to reach out at **frankyang1517@gmail.com**!
 - 🌟 **Research Internships:** I am looking for **research interns to join the Kling Team**. We welcome diverse research directions and encourage curiosity-driven exploration. If you have exciting ideas, I'd love to explore them together!
-- 🚀 **Startups:** I am actively exploring **AI startup ideas**. If you share the ambition to build something impactful from the ground up, let's connect and embark on this adventure together! I also welcome conversations with **VCs, founders, and fellow entrepreneurs**.
+- 🚀 **Startups:** I am actively **preparing to launch an AI startup**. If you share the ambition to build something impactful from the ground up, let's connect and embark on this adventure together! I also welcome conversations with **VCs, founders, and fellow entrepreneurs**.
 
 
 # ✨ News
-- [2026.11] &nbsp;💡 We release the [**Kling Technical Report**](https://arxiv.org/pdf/2611.04916), sharing practical observations and insights on **multimodal understanding for video generation**.
+- [2026.11] &nbsp;💡 We release the [Kling Technical Report](https://arxiv.org/pdf/2611.04916), sharing practical observations and insights on **multimodal understanding for video generation**.
 - [2026.09] &nbsp;🎉 One paper is accepted by **NeurIPS 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **EMNLP 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **IEEE TPAMI**.
