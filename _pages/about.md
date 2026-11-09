@@ -59,7 +59,7 @@ I'm always excited to connect with people who share a passion for research, inno
 
 
 # ✨ News
-- [2026.11] &nbsp;💡 We release the [Kling Technical Report](https://arxiv.org/pdf/2611.04916), sharing practical observations and insights on **multimodal understanding for video generation**.
+- [2026.11] &nbsp;💡 We release the [**Kling Technical Report**](https://arxiv.org/pdf/2611.04916), sharing practical observations and insights on multimodal understanding for video generation.
 - [2026.09] &nbsp;🎉 One paper is accepted by **NeurIPS 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **EMNLP 2026**.
 - [2026.08] &nbsp;🎉 One paper is accepted by **IEEE TPAMI**.
