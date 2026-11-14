@@ -6,11 +6,11 @@ author_profile: true
 toc: true
 toc_label: "Contents"
 toc_links:
-  - title: "About Me"
+  - title: "👨‍🎓 About Me"
     url: "#about-me"
-  - title: "News"
+  - title: "✨ News"
     url: "#-news"
-  - title: "Publications"
+  - title: "📝 Publications"
     url: "#-publications"
     children:
       - title: "🤖 Models & Training"
@@ -23,13 +23,13 @@ toc_links:
         url: "#theory-generalization"
       - title: "📚 Surveys & Perspectives"
         url: "#surveys-perspectives"
-  - title: "Work Experience"
+  - title: "👨‍💻 Work Experience"
     url: "#-work-experience"
-  - title: "Education"
+  - title: "📖 Education"
     url: "#-education"
-  - title: "Honors and Awards"
+  - title: "🎖 Honors and Awards"
     url: "#-honors-and-awards"
-  - title: "Visitors"
+  - title: "🌍 Visitors"
     url: "#visitor-map"
 redirect_from: 
   - /about/

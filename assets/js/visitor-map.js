@@ -17,12 +17,53 @@
   var table = root.querySelector('[data-visitor-cities]');
   var empty = root.querySelector('[data-visitor-empty]');
   var markers = root.querySelector('[data-visitor-markers]');
+  var canvas = root.querySelector('.visitor-map__canvas');
+  var tooltip = root.querySelector('[data-visitor-tooltip]');
   var mapMessage = root.querySelector('[data-visitor-map-message]');
   var format = new Intl.NumberFormat('en-US');
   var hasData = false;
   var refreshing = false;
   var lastResponseTime = 0;
   var svgNS = 'http://www.w3.org/2000/svg';
+  var markerNodes = new Map();
+  var activeMarker = null;
+
+  function hideTooltip() {
+    if (activeMarker) activeMarker.removeAttribute('aria-describedby');
+    activeMarker = null;
+    tooltip.hidden = true;
+  }
+
+  function showTooltip(dot) {
+    if (activeMarker && activeMarker !== dot) activeMarker.removeAttribute('aria-describedby');
+    activeMarker = dot;
+    tooltip.textContent = dot.getAttribute('aria-label');
+    tooltip.hidden = false;
+    dot.setAttribute('aria-describedby', tooltip.id);
+    var bounds = canvas.getBoundingClientRect();
+    var point = dot.getBoundingClientRect();
+    var left = point.left - bounds.left + point.width / 2 - tooltip.offsetWidth / 2;
+    var top = point.top - bounds.top - tooltip.offsetHeight - 10;
+    if (top < 8) top = point.bottom - bounds.top + 10;
+    tooltip.style.left = Math.max(8, Math.min(left, bounds.width - tooltip.offsetWidth - 8)) + 'px';
+    tooltip.style.top = Math.max(8, Math.min(top, bounds.height - tooltip.offsetHeight - 8)) + 'px';
+  }
+
+  function createMarker() {
+    var dot = document.createElementNS(svgNS, 'circle');
+    dot.setAttribute('class', 'visitor-map__marker');
+    dot.setAttribute('r', '4');
+    dot.setAttribute('tabindex', '0');
+    dot.setAttribute('role', 'img');
+    dot.addEventListener('pointerenter', function () { showTooltip(dot); });
+    dot.addEventListener('pointerleave', function () { if (document.activeElement !== dot) hideTooltip(); });
+    dot.addEventListener('focus', function () { showTooltip(dot); });
+    dot.addEventListener('blur', function () { if (!dot.matches(':hover')) hideTooltip(); });
+    dot.addEventListener('keydown', function (event) { if (event.key === 'Escape') hideTooltip(); });
+    return dot;
+  }
+
+  window.addEventListener('resize', function () { if (activeMarker) showTooltip(activeMarker); });
 
   function uuid() {
     if (crypto.randomUUID) return crypto.randomUUID();
@@ -100,7 +141,8 @@
       return typeof city.name === 'string' && city.name.trim() !== '' && Number.isSafeInteger(city.visits) && city.visits >= 0;
     }).sort(function (a, b) { return b.visits - a.visits || a.name.localeCompare(b.name); });
     var rowFragment = document.createDocumentFragment();
-    var markerFragment = document.createDocumentFragment();
+    var visibleMarkers = new Set();
+    if (!hasData) markers.replaceChildren();
     var mapped = 0;
     cities.forEach(function (city) {
       var tr = document.createElement('tr');
@@ -113,24 +155,31 @@
       tr.appendChild(visits);
       rowFragment.appendChild(tr);
       if (city.visits > 0 && typeof city.latitude === 'number' && typeof city.longitude === 'number' && Number.isFinite(city.latitude) && Number.isFinite(city.longitude) && city.latitude >= -70 && city.latitude <= 90 && Math.abs(city.longitude) <= 180) {
-        var dot = document.createElementNS(svgNS, 'circle');
-        var title = document.createElementNS(svgNS, 'title');
+        var key = JSON.stringify([city.name, city.latitude, city.longitude]);
+        visibleMarkers.add(key);
+        var dot = markerNodes.get(key);
+        if (!dot) {
+          dot = createMarker();
+          markerNodes.set(key, dot);
+          markers.appendChild(dot);
+        }
         var label = city.name + ': ' + format.format(city.visits) + ' visits';
-        dot.setAttribute('class', 'visitor-map__marker');
         dot.setAttribute('cx', String((city.longitude + 180) * 2));
         dot.setAttribute('cy', String((90 - city.latitude) * 2));
-        dot.setAttribute('r', '4');
-        dot.setAttribute('tabindex', '0');
-        dot.setAttribute('role', 'img');
         dot.setAttribute('aria-label', label);
-        title.textContent = label;
-        dot.appendChild(title);
-        markerFragment.appendChild(dot);
         mapped++;
       }
     });
     rows.replaceChildren(rowFragment);
-    markers.replaceChildren(markerFragment);
+    // Retain each point across polls so hover and keyboard focus survive updates.
+    markerNodes.forEach(function (dot, key) {
+      if (!visibleMarkers.has(key)) {
+        if (activeMarker === dot) hideTooltip();
+        dot.remove();
+        markerNodes.delete(key);
+      }
+    });
+    if (activeMarker) showTooltip(activeMarker);
     table.hidden = cities.length === 0;
     empty.hidden = cities.length !== 0;
     empty.textContent = 'No city information available yet.';

@@ -28,6 +28,7 @@
   }
 
   &__canvas {
+    position: relative;
     min-width: 0;
     align-self: center;
     padding: 1rem;
@@ -51,6 +52,7 @@
   }
 
   &__marker {
+    cursor: help;
     fill: $link-color;
     stroke: #fff;
     stroke-width: 1.5;
@@ -61,6 +63,22 @@
       stroke: $link-color;
       stroke-width: 2;
     }
+  }
+
+  &__tooltip {
+    position: absolute;
+    z-index: 2;
+    width: max-content;
+    max-width: calc(100% - 16px);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    background: #1e293b;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(15, 23, 42, 0.15);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    pointer-events: none;
   }
 
   &__canvas .visitor-map__message {
