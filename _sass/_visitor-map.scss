@@ -1,0 +1,60 @@
+.visitor-map {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid $border-color;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  &__description,
+  &__message {
+    font-size: 0.85rem;
+  }
+
+  &__canvas {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.25rem auto;
+
+    img,
+    iframe,
+    canvas {
+      max-width: 100%;
+    }
+
+    img {
+      height: auto;
+    }
+  }
+
+  &__placeholder {
+    padding: 2rem 1rem;
+    color: $gray;
+    text-align: center;
+    background: $lighter-gray;
+    border: 1px dashed $border-color;
+    border-radius: $border-radius;
+
+    p {
+      margin: 0 0 0.75rem;
+      font-size: 0.85rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__placeholder-title {
+    color: $dark-gray;
+    font-weight: bold;
+  }
+
+  &__note,
+  &__placeholder .visitor-map__note {
+    color: $gray;
+    font-size: 0.7rem;
+    line-height: 1.6;
+  }
+}

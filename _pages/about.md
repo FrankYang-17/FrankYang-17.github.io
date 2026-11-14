@@ -185,3 +185,5 @@ I'm always excited to connect with people who share a passion for research, inno
 - **China National Scholarship**, China University of Geosciences, 2020
 - **Outstanding Soldier Award**, People's Liberation Army, 2019
 - **Outstanding Soldier Award**, People's Liberation Army, 2018
+
+{% include visitor-map.html %}

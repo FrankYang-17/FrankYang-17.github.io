@@ -13,6 +13,13 @@ baseurl                  : ""
 repository               : "FrankYang-17/FrankYang-17.github.io"
 google_scholar_stats_use_cdn : true
 
+# Visitor map: create a widget for this site's URL at https://mapmyvisitors.com/add
+# Copy only the d= value from the generated map.js URL into widget_id.
+# See docs/visitor-map.md for setup and counting details.
+visitor_map:
+  enabled: true
+  widget_id: ""
+
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
