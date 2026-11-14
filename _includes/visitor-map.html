@@ -3,7 +3,7 @@
 {% assign visitor_cities = site.data.visitor_stats.cities | sort: "visits" | reverse %}
 {% assign mapped_cities = 0 %}
 <section id="visitor-map" class="visitor-map" aria-labelledby="visitor-map-title" data-api-url="{{ site.visitor_map.api_url | default: '' | escape }}" data-site-url="{{ site.url | escape }}">
-  <h2 id="visitor-map-title">🌍 Visitors Around the World</h2>
+  <h2 id="visitor-map-title">🌍 Visitors</h2>
   <div class="visitor-map__layout">
     <div class="visitor-map__canvas">
       <svg class="visitor-map__world" viewBox="0 0 720 320" role="group" aria-labelledby="visitor-world-title">

@@ -29,6 +29,8 @@ toc_links:
     url: "#-education"
   - title: "Honors and Awards"
     url: "#-honors-and-awards"
+  - title: "Visitors"
+    url: "#visitor-map"
 redirect_from: 
   - /about/
   - /about.html

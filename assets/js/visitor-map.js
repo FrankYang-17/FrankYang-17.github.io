@@ -137,7 +137,7 @@
     mapMessage.hidden = mapped > 0;
     mapMessage.textContent = 'Visitor cities will appear as location data becomes available.';
     total.textContent = format.format(data.total_visitors);
-    status.textContent = 'Live · refreshes every 20s';
+    status.textContent = 'Live · refreshes every 60s';
     updated.textContent = 'Updated ' + new Date(responseTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', second: '2-digit'});
     updated.hidden = false;
     hasData = true;
@@ -171,6 +171,6 @@
   }
   refresh();
   record(0);
-  setInterval(refresh, 20000);
+  setInterval(refresh, 60000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
 })();
