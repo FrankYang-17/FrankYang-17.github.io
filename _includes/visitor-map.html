@@ -49,7 +49,6 @@
       <p class="visitor-map__updated" data-visitor-updated{% unless site.data.visitor_stats.updated_at %} hidden{% endunless %}>Updated {{ site.data.visitor_stats.updated_at | escape }}</p>
     </div>
   </div>
-  <p class="visitor-map__privacy">Counts anonymous browsers. Locations are approximate; city counts represent visits.</p>
   <noscript><p class="visitor-map__message">Enable JavaScript to load live visitor statistics.</p></noscript>
 </section>
 {% if site.visitor_map.api_url and site.visitor_map.api_url != '' %}
