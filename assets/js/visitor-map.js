@@ -56,6 +56,25 @@
     }
   }
 
+  async function lookupCity() {
+    try {
+      var cached = JSON.parse(sessionStorage.getItem('homepage-visitor-city-v1') || 'null');
+      if (cached && cached.expires > Date.now()) return cached.location;
+    } catch (_) { /* Storage is optional. */ }
+    var controller = new AbortController();
+    var timer = setTimeout(function () { controller.abort(); }, 4000);
+    try {
+      var response = await fetch('https://ipwho.is/?fields=success,city,latitude,longitude', {credentials: 'omit', signal: controller.signal});
+      if (!response.ok) return null;
+      var data = await response.json();
+      if (data.success !== true || typeof data.city !== 'string' || !data.city || data.city.length > 120 || !Number.isFinite(data.latitude) || !Number.isFinite(data.longitude) || Math.abs(data.latitude) > 90 || Math.abs(data.longitude) > 180) return null;
+      var location = {source: 'ipwhois', city: data.city, latitude: data.latitude, longitude: data.longitude};
+      try { sessionStorage.setItem('homepage-visitor-city-v1', JSON.stringify({location: location, expires: Date.now() + 15 * 60 * 1000})); } catch (_) { /* Storage is optional. */ }
+      return location;
+    } catch (_) { return null; }
+    finally { clearTimeout(timer); }
+  }
+
   async function request(path, payload) {
     var controller = new AbortController();
     var timer = setTimeout(function () { controller.abort(); }, 10000);
@@ -138,8 +157,11 @@
   status.textContent = 'Loading live statistics…';
   var payload;
   try { payload = {visitor_id: visitorID(), event_id: uuid()}; } catch (_) { payload = null; }
+  var locationPromise = lookupCity();
+  var locationLoaded = false;
   async function record(attempt) {
     if (!payload) { await refresh(); return; }
+    if (!locationLoaded) { payload.location = await locationPromise; locationLoaded = true; }
     try { render(await request('/api/visit', payload)); }
     catch (_) {
       await refresh();
@@ -147,6 +169,7 @@
       if (attempt < 2) setTimeout(function () { record(attempt + 1); }, (attempt + 1) * 3000);
     }
   }
+  refresh();
   record(0);
   setInterval(refresh, 20000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
