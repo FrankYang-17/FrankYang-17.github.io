@@ -1,25 +1,58 @@
 {% if site.visitor_map.enabled %}
-{% assign visitor_map_id = site.visitor_map.widget_id | default: "" | strip %}
+{% assign visitor_total = site.data.visitor_stats.total_visitors %}
+{% assign visitor_cities = site.data.visitor_stats.cities | sort: "visits" | reverse %}
+{% assign mapped_cities = 0 %}
 <section class="visitor-map" aria-labelledby="visitor-map-title">
   <h2 id="visitor-map-title">🌍 Visitors Around the World</h2>
-  {% if visitor_map_id != "" %}
-  <p class="visitor-map__description">Explore where visitors come from. Click the map for visit totals and country and city breakdowns.</p>
-  <div class="visitor-map__canvas">
-    {% if jekyll.environment == "production" %}
-    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=d9e2ec&amp;w=a&amp;t=tt&amp;d={{ visitor_map_id | url_encode | escape }}&amp;co=ffffff&amp;cmo=1772d0&amp;cmn=e85d75&amp;ct=555555" onerror="document.getElementById('visitor-map-error').hidden = false;"></script>
-    <p id="visitor-map-error" class="visitor-map__message" role="status" hidden>The visitor map is temporarily unavailable. Please try again later.</p>
-    <noscript><p class="visitor-map__message">Enable JavaScript to view the visitor map and statistics.</p></noscript>
-    {% else %}
-    <p class="visitor-map__message">Visitor tracking is paused in this local preview.</p>
-    {% endif %}
+  <div class="visitor-map__layout">
+    <div class="visitor-map__canvas">
+      <svg class="visitor-map__world" viewBox="0 0 720 320" role="group" aria-labelledby="visitor-world-title">
+        <title id="visitor-world-title">World map of visitor cities</title>
+        <image href="{{ '/assets/images/visitor-world-map.svg' | relative_url }}" width="720" height="320" />
+        {% for city in visitor_cities %}
+          {% if city.latitude != nil and city.longitude != nil and city.visits > 0 %}
+            {% if city.latitude >= -70 and city.latitude <= 90 and city.longitude >= -180 and city.longitude <= 180 %}
+              {% assign marker_x = city.longitude | plus: 180 | times: 2 %}
+              {% assign marker_y = 90 | minus: city.latitude | times: 2 %}
+              {% assign mapped_cities = mapped_cities | plus: 1 %}
+              <circle class="visitor-map__marker" cx="{{ marker_x }}" cy="{{ marker_y }}" r="4" tabindex="0" role="img" aria-label="{{ city.name | escape }}: {{ city.visits | escape }} visits">
+                <title>{{ city.name | escape }}: {{ city.visits | escape }} visits</title>
+              </circle>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </svg>
+      {% if mapped_cities == 0 %}
+      <p class="visitor-map__message">Visitor locations will appear when data is available.</p>
+      {% endif %}
+    </div>
+    <div class="visitor-map__stats">
+      <div class="visitor-map__total" aria-label="Total visitors">
+        <span class="visitor-map__label">Total visitors</span>
+        <strong class="visitor-map__number">{% if visitor_total != nil %}{{ visitor_total | escape }}{% else %}<span aria-label="Not yet available">&mdash;</span>{% endif %}</strong>
+        <span class="visitor-map__status">{% if visitor_total != nil %}Since tracking began{% else %}Awaiting visitor data{% endif %}</span>
+      </div>
+      <div class="visitor-map__cities">
+        <h3 id="visitor-cities-title">Visits by city</h3>
+        {% if visitor_cities.size > 0 %}
+        <div class="visitor-map__city-scroll" role="region" aria-labelledby="visitor-cities-title" tabindex="0">
+          <table class="visitor-map__city-table" aria-labelledby="visitor-cities-title">
+            <thead><tr><th scope="col">City</th><th scope="col">Visits</th></tr></thead>
+            <tbody>
+              {% for city in visitor_cities %}
+              <tr><th scope="row">{{ city.name | escape }}</th><td>{{ city.visits | escape }}</td></tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% else %}
+        <p class="visitor-map__empty">City counts will appear when data is available.</p>
+        {% endif %}
+      </div>
+      {% if site.data.visitor_stats.updated_at %}
+      <p class="visitor-map__updated">Updated {{ site.data.visitor_stats.updated_at | escape }}</p>
+      {% endif %}
+    </div>
   </div>
-  <p class="visitor-map__note">Statistics collected since tracking was enabled. Locations are approximate and based on IP addresses. Counts are provided by <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener noreferrer">MapMyVisitors</a>.</p>
-  {% else %}
-  <div class="visitor-map__placeholder">
-    <p class="visitor-map__placeholder-title">Visitor statistics coming soon</p>
-    <p>World map · Visits by location · Total visits</p>
-    <p class="visitor-map__note">Statistics will appear here once visitor tracking is enabled.</p>
-  </div>
-  {% endif %}
 </section>
 {% endif %}

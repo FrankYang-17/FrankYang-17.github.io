@@ -7,15 +7,19 @@
     margin-top: 0;
   }
 
-  &__description,
-  &__message {
-    font-size: 0.85rem;
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: #f8fafc;
   }
 
   &__canvas {
-    width: 100%;
-    max-width: 640px;
-    margin: 1.25rem auto;
+    min-width: 0;
+    align-self: center;
+    padding: 1rem;
 
     img,
     iframe,
@@ -28,33 +32,147 @@
     }
   }
 
-  &__placeholder {
-    padding: 2rem 1rem;
-    color: $gray;
+  &__world {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  &__marker {
+    fill: $link-color;
+    stroke: #fff;
+    stroke-width: 1.5;
+
+    &:hover,
+    &:focus-visible {
+      fill: #e85d75;
+      stroke: $link-color;
+      stroke-width: 2;
+    }
+  }
+
+  &__canvas .visitor-map__message {
+    margin: 0.5rem 0 0;
+    color: #64748b;
+    font-size: 0.7rem;
     text-align: center;
-    background: $lighter-gray;
-    border: 1px dashed $border-color;
-    border-radius: $border-radius;
-
-    p {
-      margin: 0 0 0.75rem;
-      font-size: 0.85rem;
-    }
-
-    p:last-child {
-      margin-bottom: 0;
-    }
   }
 
-  &__placeholder-title {
-    color: $dark-gray;
+  &__stats {
+    min-width: 0;
+    border-left: 1px solid #e2e8f0;
+    background: #fff;
+  }
+
+  &__total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 1.25rem 1rem;
+    text-align: center;
+  }
+
+  &__label {
+    color: #475569;
+    font-size: 0.8rem;
+  }
+
+  &__number {
+    margin: 0.5rem 0;
+    color: $link-color;
+    font-size: 2rem;
     font-weight: bold;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
   }
 
-  &__note,
-  &__placeholder .visitor-map__note {
-    color: $gray;
+  &__status,
+  &__updated {
+    color: #64748b;
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+
+  &__stats .visitor-map__updated {
+    margin: 0;
+    padding: 0 1rem 1rem;
+    font-size: 0.65rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  &__cities {
+    padding: 1rem;
+    border-top: 1px solid #e2e8f0;
+
+    h3 {
+      margin: 0 0 0.75rem;
+      color: #475569;
+      font-size: 0.8rem;
+    }
+  }
+
+  &__city-scroll {
+    max-height: 14rem;
+    overflow-y: auto;
+  }
+
+  &__city-table {
+    display: table;
+    width: 100%;
+    margin: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+
+    th,
+    td {
+      padding: 0.45rem 0.25rem;
+      border-bottom: 1px solid #eef2f6;
+      overflow-wrap: anywhere;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    thead th {
+      color: #64748b;
+      font-weight: normal;
+    }
+
+    tbody th {
+      color: #475569;
+      font-weight: normal;
+    }
+
+    th:last-child,
+    td {
+      width: 35%;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  &__cities .visitor-map__empty {
+    margin: 0;
+    color: #64748b;
     font-size: 0.7rem;
     line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    &__layout {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    &__stats {
+      border-top: 1px solid #e2e8f0;
+      border-left: 0;
+    }
   }
 }

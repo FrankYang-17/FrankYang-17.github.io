@@ -1,0 +1,8 @@
+# Pending a real statistics source. This is a published snapshot, not a tracker.
+# total_visitors is unique visitors; each cities[].visits is a visit count.
+# Only bare city names are allowed: no country/region suffixes, codes or flags.
+# A city record has: name, visits, latitude, longitude (coordinates are optional).
+# Set updated_at when publishing real data. Never insert example traffic here.
+total_visitors: null
+updated_at: null
+cities: []
