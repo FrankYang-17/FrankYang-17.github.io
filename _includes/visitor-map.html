@@ -2,13 +2,14 @@
 {% assign visitor_total = site.data.visitor_stats.total_visitors %}
 {% assign visitor_cities = site.data.visitor_stats.cities | sort: "visits" | reverse %}
 {% assign mapped_cities = 0 %}
-<section class="visitor-map" aria-labelledby="visitor-map-title">
+<section id="visitor-map" class="visitor-map" aria-labelledby="visitor-map-title" data-api-url="{{ site.visitor_map.api_url | default: '' | escape }}" data-site-url="{{ site.url | escape }}">
   <h2 id="visitor-map-title">🌍 Visitors Around the World</h2>
   <div class="visitor-map__layout">
     <div class="visitor-map__canvas">
       <svg class="visitor-map__world" viewBox="0 0 720 320" role="group" aria-labelledby="visitor-world-title">
         <title id="visitor-world-title">World map of visitor cities</title>
         <image href="{{ '/assets/images/visitor-world-map.svg' | relative_url }}" width="720" height="320" />
+        <g data-visitor-markers>
         {% for city in visitor_cities %}
           {% if city.latitude != nil and city.longitude != nil and city.visits > 0 %}
             {% if city.latitude >= -70 and city.latitude <= 90 and city.longitude >= -180 and city.longitude <= 180 %}
@@ -21,38 +22,37 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        </g>
       </svg>
-      {% if mapped_cities == 0 %}
-      <p class="visitor-map__message">Visitor locations will appear when data is available.</p>
-      {% endif %}
+      <p class="visitor-map__message" data-visitor-map-message{% if mapped_cities > 0 %} hidden{% endif %}>Visitor locations will appear when data is available.</p>
     </div>
     <div class="visitor-map__stats">
       <div class="visitor-map__total" aria-label="Total visitors">
         <span class="visitor-map__label">Total visitors</span>
-        <strong class="visitor-map__number">{% if visitor_total != nil %}{{ visitor_total | escape }}{% else %}<span aria-label="Not yet available">&mdash;</span>{% endif %}</strong>
-        <span class="visitor-map__status">{% if visitor_total != nil %}Since tracking began{% else %}Awaiting visitor data{% endif %}</span>
+        <strong class="visitor-map__number" data-visitor-total>{% if visitor_total != nil %}{{ visitor_total | escape }}{% else %}<span aria-label="Not yet available">&mdash;</span>{% endif %}</strong>
+        <span class="visitor-map__status" data-visitor-status role="status">{% if visitor_total != nil %}Since tracking began{% else %}Awaiting visitor data{% endif %}</span>
       </div>
       <div class="visitor-map__cities">
         <h3 id="visitor-cities-title">Visits by city</h3>
-        {% if visitor_cities.size > 0 %}
-        <div class="visitor-map__city-scroll" role="region" aria-labelledby="visitor-cities-title" tabindex="0">
+        <div class="visitor-map__city-scroll" data-visitor-cities role="region" aria-labelledby="visitor-cities-title" tabindex="0"{% unless visitor_cities.size > 0 %} hidden{% endunless %}>
           <table class="visitor-map__city-table" aria-labelledby="visitor-cities-title">
             <thead><tr><th scope="col">City</th><th scope="col">Visits</th></tr></thead>
-            <tbody>
+            <tbody data-visitor-city-rows>
               {% for city in visitor_cities %}
               <tr><th scope="row">{{ city.name | escape }}</th><td>{{ city.visits | escape }}</td></tr>
               {% endfor %}
             </tbody>
           </table>
         </div>
-        {% else %}
-        <p class="visitor-map__empty">City counts will appear when data is available.</p>
-        {% endif %}
+        <p class="visitor-map__empty" data-visitor-empty{% if visitor_cities.size > 0 %} hidden{% endif %}>City counts will appear when data is available.</p>
       </div>
-      {% if site.data.visitor_stats.updated_at %}
-      <p class="visitor-map__updated">Updated {{ site.data.visitor_stats.updated_at | escape }}</p>
-      {% endif %}
+      <p class="visitor-map__updated" data-visitor-updated{% unless site.data.visitor_stats.updated_at %} hidden{% endunless %}>Updated {{ site.data.visitor_stats.updated_at | escape }}</p>
     </div>
   </div>
+  <p class="visitor-map__privacy">Counts anonymous browsers. Locations are approximate; city counts represent visits.</p>
+  <noscript><p class="visitor-map__message">Enable JavaScript to load live visitor statistics.</p></noscript>
 </section>
+{% if site.visitor_map.api_url and site.visitor_map.api_url != '' %}
+<script src="{{ '/assets/js/visitor-map.js' | relative_url }}" defer></script>
+{% endif %}
 {% endif %}

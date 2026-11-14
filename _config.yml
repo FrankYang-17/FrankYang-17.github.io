@@ -13,10 +13,11 @@ baseurl                  : ""
 repository               : "FrankYang-17/FrankYang-17.github.io"
 google_scholar_stats_use_cdn : true
 
-# City-only visitor map, rendered locally from _data/visitor_stats.yml.
+# City-only visitor map with a Sites-hosted live statistics API.
 # See docs/visitor-map.md for the data contract and counting details.
 visitor_map:
   enabled: true
+  api_url: "https://frank-homepage-visitor-stats.endearingdhole.chatgpt.site"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

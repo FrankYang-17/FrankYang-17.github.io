@@ -7,6 +7,17 @@
     margin-top: 0;
   }
 
+  [hidden] {
+    display: none !important;
+  }
+
+  .visitor-map__privacy {
+    margin-top: 0.75rem;
+    color: #64748b;
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+
   &__layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 240px;
