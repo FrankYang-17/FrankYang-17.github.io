@@ -1,6 +1,6 @@
 # 实时城市访客地图
 
-主页仍由 GitHub Pages 托管；访问采集和统计查询由独立的 Sites 服务提供。页面首次加载记录一次访问，在页面可见时每 60 秒同时更新总访客数和城市访问量；重新切回页面也会更新。轮询不会增加访问量。
+主页仍由 GitHub Pages 托管；访问采集和统计查询由独立的 Sites 服务提供。页面首次加载记录一次访问，在页面可见时每 1 秒同时更新总访客数和城市访问量；重新切回页面也会更新。若上一请求尚未完成，则等待下一轮刷新，避免请求堆积。轮询不会增加访问量。
 
 ## 展示与统计口径
 
@@ -29,7 +29,7 @@ Sites 后端源码位于同级目录 `../frank-homepage-visitor-service`，项�
 ## 文件
 
 - `_includes/visitor-map.html`：Visitors 章节的页面结构与后备显示；Contents 中的 Visitors 链接跳转至 `#visitor-map`。
-- `assets/js/visitor-map.js`：匿名标识、访问上报、60 秒刷新与城市数据绘制。
+- `assets/js/visitor-map.js`：匿名标识、访问上报、1 秒刷新与城市数据绘制。
 - `_sass/_visitor-map.scss`：桌面、手机布局与状态样式。
 - `assets/images/visitor-world-map.svg`：Natural Earth 公有领域陆地轮廓。
 
